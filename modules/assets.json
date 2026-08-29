@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "nota": "Índice, no almacén: aquí no hay audio. Cada entrada dice de dónde se baja y qué hash debe dar. El programa descarga bajo demanda y verifica; si no coincide, no lo carga y lo dice (§8.3).",
+  "assets": [
+    {
+      "id": "nam-wavenet-a1-standard",
+      "kind": "nam",
+      "display_name": "WaveNet A1 estándar",
+      "descripcion": "Modelo de ejemplo de NeuralAmpModelerCore. No es la captura de ningún amplificador concreto: sirve de suelo cuando la que el preset pide no está.",
+      "fallback_class": "generic_clean",
+      "source_url": "https://raw.githubusercontent.com/sdatkinson/NeuralAmpModelerCore/main/example_models/wavenet_a1_standard.nam",
+      "license": "MIT",
+      "license_url": "https://github.com/sdatkinson/NeuralAmpModelerCore/blob/main/LICENSE",
+      "attribution": "Steven Atkinson · NeuralAmpModelerCore",
+      "sha256": "ceb53469a19ce278e2235da982ae676cb8d5451a8de22a7ecc7a2617d07224d1",
+      "bytes": 407452
+    },
+    {
+      "id": "nam-lstm-ejemplo",
+      "kind": "nam",
+      "display_name": "LSTM de ejemplo",
+      "descripcion": "Modelo LSTM pequeño de NeuralAmpModelerCore. Ligero: útil para comprobar que la cadena suena sin cargar la máquina.",
+      "fallback_class": "generic_clean",
+      "source_url": "https://raw.githubusercontent.com/sdatkinson/NeuralAmpModelerCore/main/example_models/lstm.nam",
+      "license": "MIT",
+      "license_url": "https://github.com/sdatkinson/NeuralAmpModelerCore/blob/main/LICENSE",
+      "attribution": "Steven Atkinson · NeuralAmpModelerCore",
+      "sha256": "df9f78c49f49c2bb32411df47e3f53746075adb206b92d017e06379d1e56234a",
+      "bytes": 2307
+    }
+  ]
+}
