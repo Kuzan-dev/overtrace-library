@@ -1,0 +1,8 @@
+# Un PR de contenido no puede tocar la infraestructura (§11.1, regla 6).
+# Estas rutas exigen revisión humana aunque la CI pase.
+/schema/            @overtrace-maintainers
+/modules/           @overtrace-maintainers
+/profiles/          @overtrace-maintainers
+/.github/           @overtrace-maintainers
+/LICENSE            @overtrace-maintainers
+/CONTRIBUTING.md    @overtrace-maintainers

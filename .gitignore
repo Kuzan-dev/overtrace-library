@@ -1,0 +1,8 @@
+# El índice de búsqueda es DERIVADO: se reconstruye con
+#   python3 tools/indice/reindex.py
+# Versionarlo significaría un commit generado por cada commit humano (§11).
+indice.sqlite*
+
+# Carátulas: imágenes de terceros, cacheadas del Cover Art Archive.
+# Se vuelven a bajar con  python3 tools/caratulas/obtener.py --todas
+caratulas/

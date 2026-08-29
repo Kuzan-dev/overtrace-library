@@ -1,0 +1,126 @@
+{
+  "id": "9c4d7e21-0a3f-4b8c-9d1e-2f3a4b5c6d7e",
+  "schema_version": 1,
+  "parent_id": "0f8a12c4-1e2b-4c3d-9a4e-5f6071829304",
+  "song": {
+    "title": "Comfortably Numb",
+    "artist": "Pink Floyd",
+    "album": "The Wall",
+    "release_year": 1979
+  },
+  "section": "solo",
+  "performance": {
+    "kind": "live",
+    "year": 1994,
+    "label": "Gira Division Bell, 1994",
+    "tuning": "E standard"
+  },
+  "source_instrument": {
+    "guitar": "Fender Stratocaster \"The Black Strat\"",
+    "pickup_type": "single_coil",
+    "position": "bridge",
+    "confidence": "inferred"
+  },
+  "name": "Solo 2 — variante ligera, solo plugins verificados",
+  "stages": [
+    {
+      "role": "pre",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:gate",
+              "label": "Gate",
+              "params": {
+                "threshold": -45,
+                "release_ms": 120
+              },
+              "confidence": "estimated",
+              "note": "Umbral por encima del suelo de ruido medido de la interfaz (-60 dBFS)."
+            },
+            {
+              "module_uri": "overtrace:fuzz",
+              "label": "Big Muff",
+              "prefer": [
+                "lv2:http://guitarix.sourceforge.net/plugins/gx_bmp_#_bmp_"
+              ],
+              "gear": {
+                "name": "Electro-Harmonix Big Muff Pi",
+                "year": 1969
+              },
+              "params": {
+                "sustain": 0.55,
+                "tone": 0.5,
+                "level": 0.6
+              },
+              "confidence": "inferred",
+              "note": "Modelado de circuito de Guitarix."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "amp",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:nam",
+              "label": "Previo",
+              "prefer": [
+                "lv2:http://guitarix.sourceforge.net/plugins/gx_studiopre#studiopre"
+              ],
+              "gear": {
+                "name": "Hiwatt Custom 100 DR103",
+                "year": 1973,
+                "settings": {
+                  "Volume": 0.7,
+                  "Bass": 0.5,
+                  "Middle": 0.5,
+                  "Treble": 0.55,
+                  "Master": 0.75
+                }
+              },
+              "params": {},
+              "confidence": "inferred",
+              "note": "Previo genérico. Sustituir por captura NAM del DR103 cuando haya una con licencia clara."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "post",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:ir",
+              "label": "Pantalla 4x12",
+              "params": {
+                "mix": 1.0
+              },
+              "confidence": "inferred",
+              "note": "Convolución propia: gx_cabinet no se puede instanciar en este host."
+            },
+            {
+              "module_uri": "overtrace:limiter",
+              "label": "Limitador",
+              "params": {
+                "ceiling": -3.0
+              },
+              "confidence": "user_tuned"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "confidence": "inferred",
+    "sources": [],
+    "generated_by": "ajustado a mano tras medir el ruido de fondo por etapa",
+    "generated_at": "2026-08-28T20:25:00Z"
+  }
+}

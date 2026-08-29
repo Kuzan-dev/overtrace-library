@@ -1,0 +1,739 @@
+{
+  "catalog_version": 1,
+  "generated_by": "manual (Fase 0). En producción lo autogenera el motor — §8.1",
+  "modules": [
+    {
+      "uri": "overtrace:trim",
+      "tier": "core",
+      "category": "utility",
+      "label": "Trim de entrada",
+      "params": {
+        "gain_db": {
+          "min": -24,
+          "max": 24,
+          "default": 0,
+          "unit": "dB",
+          "taper": "linear"
+        }
+      },
+      "implementations": [],
+      "sin_implementacion": "una ganancia son dos multiplicaciones: alojar un plugin para eso cuesta más que hacerlo"
+    },
+    {
+      "uri": "overtrace:gate",
+      "tier": "core",
+      "category": "dynamics",
+      "label": "Puerta de ruido",
+      "params": {
+        "threshold": {
+          "min": -90,
+          "max": 0,
+          "default": -60,
+          "unit": "dB",
+          "taper": "linear"
+        },
+        "release_ms": {
+          "min": 5,
+          "max": 500,
+          "default": 80,
+          "unit": "ms",
+          "taper": "log"
+        }
+      },
+      "implementations": [
+        {
+          "uri": "http://hippie.lt/lv2/gate",
+          "nombre": "abGate",
+          "map": {
+            "threshold": {
+              "symbol": "threshold",
+              "modo": "directo"
+            },
+            "release_ms": {
+              "symbol": "decay",
+              "modo": "directo"
+            }
+          },
+          "fijos": {
+            "switch": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "uri": "overtrace:pickup",
+      "tier": "core",
+      "category": "utility",
+      "label": "Compensador de pastilla",
+      "engine_owned": true,
+      "params": {
+        "freq_hz": {
+          "min": 1000,
+          "max": 6000,
+          "default": 3000,
+          "unit": "Hz",
+          "taper": "log"
+        },
+        "q": {
+          "min": 0.3,
+          "max": 8,
+          "default": 2,
+          "unit": "",
+          "taper": "log"
+        },
+        "peak_db": {
+          "min": -12,
+          "max": 12,
+          "default": 0,
+          "unit": "dB",
+          "taper": "linear"
+        },
+        "shelf_db": {
+          "min": -12,
+          "max": 12,
+          "default": 0,
+          "unit": "dB",
+          "taper": "linear"
+        }
+      },
+      "implementations": [],
+      "sin_implementacion": "etapa implícita del motor (§7.3), nunca un nodo del preset"
+    },
+    {
+      "uri": "overtrace:comp",
+      "tier": "core",
+      "category": "dynamics",
+      "label": "Compresor",
+      "params": {
+        "threshold": {
+          "min": -60,
+          "max": 0,
+          "default": -18,
+          "unit": "dB",
+          "taper": "linear"
+        },
+        "ratio": {
+          "min": 1,
+          "max": 20,
+          "default": 4,
+          "unit": ":1",
+          "taper": "log"
+        },
+        "attack_ms": {
+          "min": 0.1,
+          "max": 100,
+          "default": 10,
+          "unit": "ms",
+          "taper": "log"
+        },
+        "release_ms": {
+          "min": 10,
+          "max": 1000,
+          "default": 120,
+          "unit": "ms",
+          "taper": "log"
+        },
+        "makeup_db": {
+          "min": 0,
+          "max": 24,
+          "default": 0,
+          "unit": "dB",
+          "taper": "linear"
+        }
+      },
+      "implementations": [
+        {
+          "uri": "urn:zamaudio:ZamComp",
+          "nombre": "ZamComp",
+          "map": {
+            "threshold": {
+              "symbol": "thr",
+              "modo": "directo"
+            },
+            "ratio": {
+              "symbol": "rat",
+              "modo": "directo"
+            },
+            "attack_ms": {
+              "symbol": "att",
+              "modo": "directo"
+            },
+            "release_ms": {
+              "symbol": "rel",
+              "modo": "directo"
+            },
+            "makeup_db": {
+              "symbol": "mak",
+              "modo": "directo"
+            }
+          }
+        },
+        {
+          "uri": "http://invadarecords.com/plugins/lv2/compressor/mono",
+          "nombre": "Invada Compressor",
+          "map": {
+            "threshold": {
+              "symbol": "threshold",
+              "modo": "directo"
+            },
+            "ratio": {
+              "symbol": "ratio",
+              "modo": "directo"
+            },
+            "makeup_db": {
+              "symbol": "gain",
+              "modo": "directo"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "uri": "overtrace:drive",
+      "tier": "core",
+      "category": "gain",
+      "label": "Overdrive",
+      "params": {
+        "drive": {
+          "min": 0,
+          "max": 1,
+          "default": 0.5,
+          "unit": "",
+          "taper": "linear"
+        },
+        "tone": {
+          "min": 0,
+          "max": 1,
+          "default": 0.5,
+          "unit": "",
+          "taper": "linear"
+        },
+        "level": {
+          "min": 0,
+          "max": 1,
+          "default": 0.5,
+          "unit": "",
+          "taper": "linear"
+        }
+      },
+      "implementations": [
+        {
+          "uri": "http://moddevices.com/plugins/mod-devel/DS1",
+          "nombre": "DS1",
+          "map": {
+            "drive": {
+              "symbol": "Dist",
+              "modo": "escala"
+            },
+            "tone": {
+              "symbol": "Tone",
+              "modo": "escala"
+            },
+            "level": {
+              "symbol": "Level",
+              "modo": "escala"
+            }
+          }
+        },
+        {
+          "uri": "https://github.com/jatinchowdhury18/KlonCentaur",
+          "nombre": "ChowCentaur",
+          "map": {
+            "drive": {
+              "symbol": "gain",
+              "modo": "escala"
+            },
+            "tone": {
+              "symbol": "treble",
+              "modo": "escala"
+            },
+            "level": {
+              "symbol": "level",
+              "modo": "escala"
+            }
+          }
+        },
+        {
+          "uri": "https://github.com/JanosGit/Schrammel_OJD",
+          "nombre": "Schrammel OJD",
+          "map": {
+            "drive": {
+              "symbol": "drive",
+              "modo": "escala"
+            },
+            "tone": {
+              "symbol": "tone",
+              "modo": "escala"
+            },
+            "level": {
+              "symbol": "volume",
+              "modo": "escala"
+            }
+          },
+          "fijos": {
+            "lv2_enabled": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "uri": "overtrace:fuzz",
+      "tier": "core",
+      "category": "gain",
+      "label": "Fuzz",
+      "params": {
+        "sustain": {
+          "min": 0,
+          "max": 1,
+          "default": 0.5,
+          "unit": "",
+          "taper": "linear"
+        },
+        "tone": {
+          "min": 0,
+          "max": 1,
+          "default": 0.5,
+          "unit": "",
+          "taper": "linear"
+        },
+        "level": {
+          "min": 0,
+          "max": 1,
+          "default": 0.5,
+          "unit": "",
+          "taper": "linear"
+        }
+      },
+      "implementations": [
+        {
+          "uri": "http://moddevices.com/plugins/mod-devel/BigMuffPi",
+          "nombre": "Open Big Muff",
+          "map": {
+            "sustain": {
+              "symbol": "Sustain",
+              "modo": "escala"
+            },
+            "tone": {
+              "symbol": "Tone",
+              "modo": "escala"
+            },
+            "level": {
+              "symbol": "Level",
+              "modo": "escala"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "uri": "overtrace:wah",
+      "tier": "core",
+      "category": "filter",
+      "label": "Wah",
+      "params": {
+        "position": {
+          "min": 0,
+          "max": 1,
+          "default": 0.5,
+          "unit": "",
+          "taper": "linear"
+        },
+        "q": {
+          "min": 1,
+          "max": 10,
+          "default": 4,
+          "unit": "",
+          "taper": "log"
+        }
+      },
+      "implementations": [
+        {
+          "uri": "http://moddevices.com/plugins/caps/AutoFilter",
+          "nombre": "C* AutoFilter",
+          "map": {
+            "position": {
+              "symbol": "frequency",
+              "modo": "escala"
+            },
+            "q": {
+              "symbol": "Q",
+              "modo": "escala"
+            }
+          }
+        },
+        {
+          "uri": "http://drobilla.net/plugins/fomp/autowah",
+          "nombre": "FOMP Auto-wah",
+          "map": {
+            "position": {
+              "symbol": "freq",
+              "modo": "escala"
+            },
+            "q": {
+              "symbol": "range",
+              "modo": "escala"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "uri": "overtrace:eq",
+      "tier": "core",
+      "category": "filter",
+      "label": "Ecualizador",
+      "params": {
+        "low_db": {
+          "min": -18,
+          "max": 18,
+          "default": 0,
+          "unit": "dB",
+          "taper": "linear"
+        },
+        "mid_db": {
+          "min": -18,
+          "max": 18,
+          "default": 0,
+          "unit": "dB",
+          "taper": "linear"
+        },
+        "mid_hz": {
+          "min": 200,
+          "max": 5000,
+          "default": 800,
+          "unit": "Hz",
+          "taper": "log"
+        },
+        "high_db": {
+          "min": -18,
+          "max": 18,
+          "default": 0,
+          "unit": "dB",
+          "taper": "linear"
+        }
+      },
+      "implementations": [
+        {
+          "uri": "http://gareus.org/oss/lv2/fil4#mono",
+          "nombre": "x42-eq",
+          "map": {
+            "low_db": {
+              "symbol": "LSgain",
+              "modo": "directo"
+            },
+            "mid_db": {
+              "symbol": "gain2",
+              "modo": "directo"
+            },
+            "mid_hz": {
+              "symbol": "freq2",
+              "modo": "directo"
+            },
+            "high_db": {
+              "symbol": "HSgain",
+              "modo": "directo"
+            }
+          },
+          "fijos": {
+            "enable": 1.0,
+            "LSsec": 1.0,
+            "sec2": 1.0,
+            "HSsec": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "uri": "overtrace:mod",
+      "tier": "core",
+      "category": "modulation",
+      "label": "Modulación",
+      "params": {
+        "rate_hz": {
+          "min": 0.05,
+          "max": 10,
+          "default": 0.6,
+          "unit": "Hz",
+          "taper": "log"
+        },
+        "depth": {
+          "min": 0,
+          "max": 1,
+          "default": 0.4,
+          "unit": "",
+          "taper": "linear"
+        },
+        "mix": {
+          "min": 0,
+          "max": 1,
+          "default": 0.5,
+          "unit": "",
+          "taper": "linear"
+        }
+      },
+      "implementations": [
+        {
+          "uri": "http://moddevices.com/plugins/tap/chorusflanger",
+          "nombre": "TAP Chorus/Flanger",
+          "map": {
+            "rate_hz": {
+              "symbol": "Frequency",
+              "modo": "directo"
+            },
+            "depth": {
+              "symbol": "Depth",
+              "modo": "escala"
+            },
+            "mix": {
+              "symbol": "WetLevel",
+              "modo": "db"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "uri": "overtrace:delay",
+      "tier": "core",
+      "category": "time",
+      "label": "Delay",
+      "params": {
+        "time_ms": {
+          "min": 10,
+          "max": 2000,
+          "default": 380,
+          "unit": "ms",
+          "taper": "log"
+        },
+        "feedback": {
+          "min": 0,
+          "max": 0.95,
+          "default": 0.35,
+          "unit": "",
+          "taper": "linear"
+        },
+        "mix": {
+          "min": 0,
+          "max": 1,
+          "default": 0.3,
+          "unit": "",
+          "taper": "linear"
+        }
+      },
+      "implementations": [
+        {
+          "uri": "http://moddevices.com/plugins/tap/echo",
+          "nombre": "TAP Stereo Echo",
+          "map": {
+            "time_ms": {
+              "symbol": "ldelay",
+              "modo": "directo",
+              "tambien": [
+                "rhaasdelay"
+              ]
+            },
+            "feedback": {
+              "symbol": "lfeedback",
+              "modo": "escala",
+              "tambien": [
+                "rhaasfeedback"
+              ]
+            },
+            "mix": {
+              "symbol": "lecholevel",
+              "modo": "db",
+              "tambien": [
+                "recholevel"
+              ]
+            }
+          },
+          "fijos": {
+            "crossmode": 0.0,
+            "haaseffect": 0.0,
+            "dryLevel": 0.0
+          }
+        },
+        {
+          "uri": "https://ca9.eu/lv2/bolliedelay",
+          "nombre": "Bollie Delay",
+          "map": {
+            "feedback": {
+              "symbol": "feedback",
+              "modo": "escala"
+            },
+            "mix": {
+              "symbol": "mix",
+              "modo": "escala"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "uri": "overtrace:reverb",
+      "tier": "core",
+      "category": "time",
+      "label": "Reverberación",
+      "params": {
+        "decay": {
+          "min": 0.1,
+          "max": 12,
+          "default": 2.4,
+          "unit": "s",
+          "taper": "log"
+        },
+        "mix": {
+          "min": 0,
+          "max": 1,
+          "default": 0.25,
+          "unit": "",
+          "taper": "linear"
+        }
+      },
+      "implementations": [
+        {
+          "uri": "urn:dragonfly:plate",
+          "nombre": "Dragonfly Plate",
+          "map": {
+            "decay": {
+              "symbol": "decay",
+              "modo": "directo"
+            },
+            "mix": {
+              "symbol": "early_level",
+              "modo": "escala"
+            }
+          },
+          "fijos": {
+            "dry_level": 0.0
+          }
+        },
+        {
+          "uri": "http://moddevices.com/plugins/caps/Plate",
+          "nombre": "C* Plate",
+          "map": {
+            "decay": {
+              "symbol": "tail",
+              "modo": "escala"
+            },
+            "mix": {
+              "symbol": "blend",
+              "modo": "escala"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "uri": "overtrace:nam",
+      "tier": "core",
+      "category": "amp",
+      "label": "Amplificador neuronal (NAM)",
+      "is_amp": true,
+      "asset_kind": "nam",
+      "params": {
+        "input_level": {
+          "min": -12,
+          "max": 12,
+          "default": 0,
+          "unit": "dB",
+          "taper": "linear"
+        },
+        "output_level": {
+          "min": -12,
+          "max": 12,
+          "default": 0,
+          "unit": "dB",
+          "taper": "linear"
+        }
+      },
+      "implementations": [
+        {
+          "uri": "http://github.com/mikeoliphant/neural-amp-modeler-lv2",
+          "nombre": "Neural Amp Modeler",
+          "map": {
+            "input_level": {
+              "symbol": "input_level",
+              "modo": "directo"
+            },
+            "output_level": {
+              "symbol": "output_level",
+              "modo": "directo"
+            }
+          },
+          "asset": "nam"
+        }
+      ]
+    },
+    {
+      "uri": "overtrace:ir",
+      "tier": "core",
+      "category": "cab",
+      "label": "Convolución de pantalla",
+      "asset_kind": "ir",
+      "params": {
+        "mix": {
+          "min": 0,
+          "max": 1,
+          "default": 1,
+          "unit": "",
+          "taper": "linear"
+        }
+      },
+      "implementations": [
+        {
+          "uri": "https://mod.audio/plugins/CabinetLoader",
+          "nombre": "Cabinet Loader",
+          "map": {},
+          "asset": "ir"
+        },
+        {
+          "uri": "https://mod.audio/plugins/ConvolutionLoader",
+          "nombre": "Convolution Loader",
+          "map": {
+            "mix": {
+              "symbol": "wetlevel",
+              "modo": "db"
+            }
+          },
+          "asset": "ir"
+        }
+      ]
+    },
+    {
+      "uri": "overtrace:limiter",
+      "tier": "core",
+      "category": "dynamics",
+      "label": "Limitador",
+      "params": {
+        "ceiling": {
+          "min": -12,
+          "max": 0,
+          "default": -0.3,
+          "unit": "dBFS",
+          "taper": "linear"
+        }
+      },
+      "implementations": [
+        {
+          "uri": "urn:zamaudio:ZamComp",
+          "nombre": "ZamComp (haciendo de limitador)",
+          "map": {
+            "ceiling": {
+              "symbol": "thr",
+              "modo": "directo"
+            }
+          },
+          "fijos": {
+            "rat": 20.0,
+            "att": 0.1,
+            "rel": 50.0,
+            "kn": 0.0,
+            "mak": 0.0
+          },
+          "nota": "no hay limitador de verdad en este motor: es un compresor a ratio 20. Vigila el pico de salida."
+        }
+      ]
+    }
+  ]
+}

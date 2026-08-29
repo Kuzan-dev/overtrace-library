@@ -1,0 +1,250 @@
+{
+  "id": "0f8a12c4-1e2b-4c3d-9a4e-5f6071829304",
+  "schema_version": 1,
+  "song": {
+    "title": "Comfortably Numb",
+    "artist": "Pink Floyd",
+    "album": "The Wall",
+    "release_year": 1979
+  },
+  "section": "solo",
+  "performance": {
+    "kind": "live",
+    "year": 1994,
+    "label": "Gira Division Bell, 1994",
+    "tuning": "E standard",
+    "capo_fret": null
+  },
+  "source_instrument": {
+    "guitar": "Fender Stratocaster \"The Black Strat\"",
+    "pickup_type": "single_coil",
+    "position": "bridge",
+    "controls": {
+      "volume": 10,
+      "tone": 7
+    },
+    "confidence": "documented",
+    "sources": [
+      {
+        "url": "https://www.gilmourish.com/",
+        "kind": "other"
+      }
+    ]
+  },
+  "name": "Solo 2 — rig en directo (wet/dry/wet)",
+  "stages": [
+    {
+      "role": "pre",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:gate",
+              "label": "Gate",
+              "params": {
+                "threshold": -60
+              },
+              "confidence": "estimated",
+              "note": "Necesario por el ruido de las bobinas simples con mucha ganancia. No documentado."
+            },
+            {
+              "module_uri": "overtrace:comp",
+              "label": "Compresor",
+              "params": {
+                "threshold": -18,
+                "ratio": 4,
+                "makeup_db": 3
+              },
+              "confidence": "inferred",
+              "note": "Gilmour usaba compresión para el sustain del solo. Ajustes deducidos, no documentados.",
+              "prefer": [
+                "lv2:http://guitarix.sourceforge.net/plugins/gx_compressor#_compressor"
+              ]
+            },
+            {
+              "module_uri": "overtrace:fuzz",
+              "label": "Big Muff",
+              "gear": {
+                "name": "Electro-Harmonix Big Muff Pi",
+                "maker": "Electro-Harmonix",
+                "year": 1969
+              },
+              "params": {
+                "sustain": 0.7,
+                "tone": 0.45,
+                "level": 0.6
+              },
+              "confidence": "documented",
+              "sources": [
+                {
+                  "url": "https://www.gilmourish.com/",
+                  "kind": "other",
+                  "quote": "the Big Muff is the core of the Comfortably Numb solo tone"
+                }
+              ],
+              "prefer": [
+                "lv2:http://guitarix.sourceforge.net/plugins/gx_bmp_#_bmp_"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "amp",
+      "label": "Wet / Dry / Wet",
+      "lanes": [
+        {
+          "label": "Seco",
+          "gain_db": 0,
+          "pan": 0,
+          "nodes": [
+            {
+              "module_uri": "overtrace:nam",
+              "label": "Hiwatt DR103",
+              "gear": {
+                "name": "Hiwatt Custom 100 DR103",
+                "maker": "Hiwatt",
+                "year": 1973
+              },
+              "params": {
+                "input_level": 3
+              },
+              "asset": {
+                "kind": "nam",
+                "display_name": "Hiwatt DR103",
+                "source_url": "https://www.tone3000.com/",
+                "match": "same_model",
+                "fallback_class": "british_100w_stack"
+              },
+              "confidence": "documented",
+              "sources": [
+                {
+                  "url": "https://www.gilmourish.com/",
+                  "kind": "other"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Húmedo L",
+          "gain_db": -3,
+          "pan": -1,
+          "nodes": [
+            {
+              "module_uri": "overtrace:delay",
+              "label": "Delay 380 ms",
+              "params": {
+                "feedback": 0.35,
+                "time_ms": 380.0,
+                "mix": 0.4
+              },
+              "confidence": "inferred",
+              "note": "Tiempo deducido del tempo del tema (~63 BPM). Ninguna fuente lo documenta.",
+              "prefer": [
+                "lv2:http://guitarix.sourceforge.net/plugins/gxtubedelay#tubedelay"
+              ]
+            },
+            {
+              "module_uri": "overtrace:nam",
+              "label": "Hiwatt DR103",
+              "gear": {
+                "name": "Hiwatt Custom 100 DR103",
+                "maker": "Hiwatt",
+                "year": 1973
+              },
+              "params": {
+                "input_level": 3
+              },
+              "confidence": "documented",
+              "sources": [
+                {
+                  "url": "https://www.gilmourish.com/",
+                  "kind": "other"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Húmedo R",
+          "gain_db": -3,
+          "pan": 1,
+          "nodes": [
+            {
+              "module_uri": "overtrace:reverb",
+              "label": "Placa",
+              "params": {
+                "decay": 0.6,
+                "mix": 0.3
+              },
+              "confidence": "estimated",
+              "note": "Reverb de sala inferida del sonido de directo. Sin documentar.",
+              "prefer": [
+                "lv2:http://guitarix.sourceforge.net/plugins/gx_reverb_stereo#_reverb_stereo"
+              ]
+            },
+            {
+              "module_uri": "overtrace:nam",
+              "label": "Hiwatt DR103",
+              "gear": {
+                "name": "Hiwatt Custom 100 DR103",
+                "maker": "Hiwatt",
+                "year": 1973
+              },
+              "params": {
+                "input_level": 3
+              },
+              "confidence": "documented",
+              "sources": [
+                {
+                  "url": "https://www.gilmourish.com/",
+                  "kind": "other"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "post",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:ir",
+              "label": "4x12 Celestion",
+              "params": {
+                "mix": 1.0
+              },
+              "confidence": "inferred",
+              "note": "Hiwatt con pantallas WEM/Celestion. Modelo exacto no documentado."
+            },
+            {
+              "module_uri": "overtrace:limiter",
+              "label": "Limitador",
+              "params": {
+                "ceiling": -0.3
+              },
+              "confidence": "estimated",
+              "note": "Protección de salida, no parte del rig original."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "confidence": "inferred",
+    "sources": [
+      {
+        "url": "https://www.gilmourish.com/",
+        "kind": "other"
+      }
+    ],
+    "generated_by": "claude-opus-5 (sin búsqueda web — prueba de R-02)",
+    "generated_at": "2026-08-28T14:00:00Z"
+  }
+}

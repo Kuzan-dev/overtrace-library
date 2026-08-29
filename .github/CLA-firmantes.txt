@@ -1,0 +1,2 @@
+# Un usuario de GitHub por línea. Lo añade el bot cuando alguien acepta el CLA
+# desde la pantalla de "Publicar" de la aplicación (§14.3, ADR-11).

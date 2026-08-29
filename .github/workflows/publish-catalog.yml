@@ -1,0 +1,44 @@
+# ADR-10 · Al mergear, se empaqueta el catálogo y se publica como Release.
+# El cliente lo consume por HTTPS anónimo: sin git, sin token, sin cuenta.
+name: publicar catálogo
+
+on:
+  push: { branches: [main] }
+  workflow_dispatch:
+
+permissions: { contents: write }
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Empaquetar
+        id: paq
+        run: |
+          v=$(git rev-list --count HEAD)
+          n=$(find presets -name '*.json' | wc -l)
+          tar --zstd -cf "catalog-$v.tar.zst" presets modules profiles schema
+          sha=$(sha256sum "catalog-$v.tar.zst" | cut -d' ' -f1)
+          bytes=$(stat -c%s "catalog-$v.tar.zst")
+          # El manifiesto que consulta el cliente al arrancar: ~2 KB (§11.2)
+          cat > manifest.json <<JSON
+          {
+            "catalog_version": $v,
+            "presets": $n,
+            "sha256": "$sha",
+            "bytes": $bytes,
+            "url": "https://github.com/${{ github.repository }}/releases/latest/download/catalog-$v.tar.zst",
+            "schema_version": 1
+          }
+          JSON
+          echo "v=$v" >> "$GITHUB_OUTPUT"
+          cat manifest.json
+
+      - uses: softprops/action-gh-release@v2
+        with:
+          tag_name: "catalog-${{ steps.paq.outputs.v }}"
+          files: |
+            catalog-${{ steps.paq.outputs.v }}.tar.zst
+            manifest.json

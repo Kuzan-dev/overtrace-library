@@ -1,0 +1,108 @@
+# ADR-10 · La puerta de calidad es CI, no una persona.
+#
+# Ejecuta los MISMOS validadores que usa el agente (§9.3) —el mismo binario, no
+# una reimplementación— más las comprobaciones mecánicas de §11.2. Si todo pasa,
+# el PR se auto-mergea; si no, el bot comenta el motivo en lenguaje llano.
+name: validar preset
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+
+      - name: Alcance — solo se puede añadir a presets/
+        run: |
+          base="${{ github.event.pull_request.base.sha }}"
+          cambios=$(git diff --name-status "$base"...HEAD)
+          echo "$cambios"
+
+          # nada fuera de presets/
+          fuera=$(echo "$cambios" | awk '{print $2}' | grep -v '^presets/' || true)
+          if [ -n "$fuera" ]; then
+            echo "::error::Este PR toca ficheros fuera de presets/:"; echo "$fuera"
+            echo "Un PR de preset solo puede añadir presets. La infraestructura" \
+                 "necesita revisión humana (§11.1, regla 6)."
+            exit 1
+          fi
+
+          # append-only: ni modificar ni borrar (ADR-05)
+          tocados=$(echo "$cambios" | grep -E '^(M|D|R)' || true)
+          if [ -n "$tocados" ]; then
+            echo "::error::El repositorio es append-only. Modificar un preset ajeno"
+            echo "crea uno nuevo con parent_id, no edita el original (ADR-05):"
+            echo "$tocados"; exit 1
+          fi
+
+          # un preset por PR (§11.1, regla 5)
+          n=$(echo "$cambios" | grep -c '^A' || true)
+          if [ "$n" -ne 1 ]; then
+            echo "::error::Este PR añade $n presets. Debe ser exactamente uno."; exit 1
+          fi
+
+      - name: Nombre — el fichero debe llamarse como su id
+        run: |
+          f=$(git diff --name-only "${{ github.event.pull_request.base.sha }}"...HEAD)
+          id=$(python3 -c "import json,sys;print(json.load(open('$f'))['id'])")
+          esperado="presets/$id.json"
+          if [ "$f" != "$esperado" ]; then
+            echo "::error::El fichero es '$f' pero su id dice '$esperado'."; exit 1
+          fi
+
+      - name: Schema
+        run: |
+          pip install --quiet jsonschema
+          f=$(git diff --name-only "${{ github.event.pull_request.base.sha }}"...HEAD)
+          python3 - "$f" <<'PY'
+          import json, sys, jsonschema
+          esquema = json.load(open("schema/preset.v1.schema.json"))
+          preset  = json.load(open(sys.argv[1]))
+          jsonschema.Draft202012Validator.check_schema(esquema)
+          errores = sorted(jsonschema.Draft202012Validator(esquema).iter_errors(preset),
+                           key=lambda e: list(e.path))
+          for e in errores:
+              print(f"::error::{'/'.join(map(str, e.path))}: {e.message}")
+          sys.exit(1 if errores else 0)
+          PY
+
+      - uses: actions/setup-go@v5
+        with: { go-version: '1.23' }
+
+      # El validador vive AQUÍ, no en el repositorio del motor. Es contrato,
+      # no implementación: define qué es un preset válido, igual que el schema.
+      # Tenerlo fuera obligaba a la CI a cruzar repositorios —uno de ellos
+      # privado— y fallaba en cada PR.
+      - name: Semántica — los validadores de §9.3 en modo CI
+        run: |
+          go build -o /tmp/validar ./tools/validate
+          f=$(git diff --name-only "${{ github.event.pull_request.base.sha }}"...HEAD)
+          /tmp/validar --ci --catalogo modules/catalog.json "$f"
+
+      - name: CLA — el autor debe constar como firmante
+        run: |
+          autor="${{ github.event.pull_request.user.login }}"
+          if ! grep -qx "$autor" .github/CLA-firmantes.txt 2>/dev/null; then
+            echo "::error::@$autor no ha firmado el CLA todavía."
+            echo "Es una pantalla, una sola vez: ver CONTRIBUTING.md (§14.3)."
+            exit 1
+          fi
+
+  automerge:
+    needs: validar
+    runs-on: ubuntu-latest
+    if: success()
+    permissions: { contents: write, pull-requests: write }
+    steps:
+      # Todo en verde: entra solo. El ciclo de "Publicar" a estar en el
+      # catálogo de todos no toca a ningún humano (§11.2).
+      - run: gh pr merge --squash --auto "${{ github.event.pull_request.number }}"
+        env: { GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}" }

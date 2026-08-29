@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "nota": "Perfiles de compensación de pastilla — §7.3. Cada tipo se modela por su PICO DE RESONANCIA (frecuencia, Q) y su nivel de salida, que es la diferencia física real entre una bobina simple y una humbucker. Un paso-alto no captura eso, y por eso la v1.2 estaba equivocada. Valores de partida basados en rangos típicos; §7.3 los declara como aproximación afinable a oído, no como solución cerrada.",
+  "aviso": "Esta es la parte del sistema con menos base física. Se expone como ajuste, se presenta como aproximación, y el compensador es bypasseable de un clic.",
+  "tipos": {
+    "single_coil": {
+      "label": "Bobina simple",
+      "resonancia_hz": 3800,
+      "q": 2.6,
+      "realce_db": 4.5,
+      "salida_db": 0.0,
+      "grave_db": -1.5
+    },
+    "p90": {
+      "label": "P-90",
+      "resonancia_hz": 3200,
+      "q": 2.0,
+      "realce_db": 3.5,
+      "salida_db": 2.5,
+      "grave_db": 0.0
+    },
+    "filtertron": {
+      "label": "Filter'Tron",
+      "resonancia_hz": 3400,
+      "q": 2.2,
+      "realce_db": 3.0,
+      "salida_db": 1.5,
+      "grave_db": -0.5
+    },
+    "humbucker": {
+      "label": "Humbucker",
+      "resonancia_hz": 2400,
+      "q": 1.5,
+      "realce_db": 2.5,
+      "salida_db": 5.5,
+      "grave_db": 2.0
+    },
+    "active": {
+      "label": "Activa (EMG)",
+      "resonancia_hz": 2800,
+      "q": 0.8,
+      "realce_db": 0.5,
+      "salida_db": 9.0,
+      "grave_db": 1.0
+    },
+    "piezo": {
+      "label": "Piezo",
+      "resonancia_hz": 5200,
+      "q": 1.2,
+      "realce_db": 2.0,
+      "salida_db": 1.0,
+      "grave_db": -4.0
+    },
+    "unknown": {
+      "label": "Desconocida",
+      "resonancia_hz": 3000,
+      "q": 1.0,
+      "realce_db": 0.0,
+      "salida_db": 0.0,
+      "grave_db": 0.0
+    }
+  },
+  "posicion": {
+    "bridge": {
+      "salida_db": 0.0,
+      "grave_db": -2.0
+    },
+    "middle": {
+      "salida_db": -1.0,
+      "grave_db": 0.0
+    },
+    "neck": {
+      "salida_db": -1.5,
+      "grave_db": 2.5
+    },
+    "bridge_middle": {
+      "salida_db": -1.5,
+      "grave_db": -0.5
+    },
+    "middle_neck": {
+      "salida_db": -2.0,
+      "grave_db": 1.5
+    },
+    "unknown": {
+      "salida_db": 0.0,
+      "grave_db": 0.0
+    }
+  },
+  "posicion_nota": "Ajuste secundario por posición del selector, sumado al del tipo."
+}

@@ -1,0 +1,93 @@
+{
+  "id": "1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d",
+  "schema_version": 1,
+  "song": {
+    "title": "Prueba de sonido",
+    "artist": "OverTrace",
+    "release_year": 2026
+  },
+  "section": "full_song",
+  "performance": {
+    "kind": "studio",
+    "year": 2026
+  },
+  "name": "Limpio — para comprobar que la cadena suena",
+  "stages": [
+    {
+      "role": "pre",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:trim",
+              "label": "Ganancia de entrada",
+              "params": {
+                "gain_db": 0.0
+              },
+              "confidence": "user_tuned",
+              "note": "Sin compensación: se lee del nodo crudo del dispositivo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "amp",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:nam",
+              "label": "Previo limpio",
+              "prefer": [
+                "lv2:http://guitarix.sourceforge.net/plugins/gx_studiopre#studiopre"
+              ],
+              "params": {},
+              "confidence": "user_tuned",
+              "gear": {
+                "name": "Previo limpio",
+                "settings": {
+                  "Volume": 0.6,
+                  "Bass": 0.5,
+                  "Middle": 0.5,
+                  "Treble": 0.55,
+                  "Master": 0.7
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "post",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:ir",
+              "label": "Pantalla",
+              "params": {
+                "mix": 0.8
+              },
+              "confidence": "user_tuned"
+            },
+            {
+              "module_uri": "overtrace:limiter",
+              "label": "Limitador",
+              "params": {
+                "ceiling": -3.0
+              },
+              "confidence": "user_tuned"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "confidence": "user_tuned",
+    "sources": [],
+    "generated_by": "preset de diagnóstico: sin distorsión, para aislar el problema"
+  }
+}

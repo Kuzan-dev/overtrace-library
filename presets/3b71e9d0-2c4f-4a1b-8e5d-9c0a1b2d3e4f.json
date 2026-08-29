@@ -1,0 +1,141 @@
+{
+  "id": "3b71e9d0-2c4f-4a1b-8e5d-9c0a1b2d3e4f",
+  "schema_version": 1,
+  "song": {
+    "title": "Sultans of Swing",
+    "artist": "Dire Straits",
+    "album": "Dire Straits",
+    "release_year": 1978
+  },
+  "section": "intro",
+  "performance": {
+    "kind": "studio",
+    "year": 1978,
+    "tuning": "E standard"
+  },
+  "source_instrument": {
+    "guitar": "Fender Stratocaster 1961",
+    "pickup_type": "single_coil",
+    "position": "middle_neck",
+    "controls": {
+      "volume": 10,
+      "tone": 8
+    },
+    "confidence": "documented",
+    "sources": []
+  },
+  "name": "Intro — tono limpio con pastillas intermedias",
+  "stages": [
+    {
+      "role": "pre",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:comp",
+              "label": "Compresor",
+              "params": {
+                "threshold": -20,
+                "ratio": 3,
+                "attack_ms": 15,
+                "makeup_db": 4
+              },
+              "confidence": "documented"
+            },
+            {
+              "module_uri": "overtrace:drive",
+              "label": "Tube Screamer",
+              "gear": {
+                "name": "Ibanez TS808 Tube Screamer",
+                "maker": "Ibanez",
+                "year": 1979
+              },
+              "params": {
+                "drive": 0.2,
+                "tone": 0.6,
+                "level": 0.7
+              },
+              "confidence": "inferred",
+              "note": "Ligero empuje para el sustain de las notas del riff."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "amp",
+      "lanes": [
+        {
+          "gain_db": 0,
+          "pan": 0,
+          "nodes": [
+            {
+              "module_uri": "overtrace:nam",
+              "label": "Fender Vibrolux",
+              "gear": {
+                "name": "Fender Vibrolux Reverb",
+                "maker": "Fender",
+                "year": 1964
+              },
+              "params": {
+                "input_level": 12
+              },
+              "asset": {
+                "kind": "nam",
+                "display_name": "Fender Vibrolux Reverb",
+                "source_url": "https://www.tone3000.com/",
+                "match": "similar",
+                "fallback_class": "american_clean"
+              },
+              "confidence": "documented",
+              "sources": [
+                {
+                  "url": "https://www.premierguitar.com/",
+                  "kind": "interview"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "post",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:delay",
+              "label": "Eco de cinta",
+              "params": {
+                "time_ms": 250,
+                "feedback": 0.2,
+                "mix": 0.15
+              },
+              "confidence": "estimated",
+              "prefer": [
+                "lv2:tape-echo"
+              ]
+            },
+            {
+              "module_uri": "overtrace:reverb",
+              "label": "Muelles",
+              "params": {
+                "decay": 1.8,
+                "mix": 0.2
+              },
+              "confidence": "inferred",
+              "note": "Reverb de muelles del propio amplificador."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "confidence": "documented",
+    "sources": [],
+    "generated_by": "claude-opus-5 (sin búsqueda web — prueba de R-02)",
+    "generated_at": "2026-08-28T14:05:00Z"
+  }
+}

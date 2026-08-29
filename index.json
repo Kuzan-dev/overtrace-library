@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "presets": [
+    {
+      "id": "3b71e9d0-2c4f-4a1b-8e5d-9c0a1b2d3e4f",
+      "fichero": "3b71e9d0-2c4f-4a1b-8e5d-9c0a1b2d3e4f.json",
+      "titulo": "Sultans of Swing",
+      "artista": "Dire Straits",
+      "album": "Dire Straits",
+      "anio": 1978,
+      "seccion": "intro",
+      "nombre": "Intro — tono limpio con pastillas intermedias",
+      "confidence": "documented",
+      "lane_count": 3,
+      "nam_count": 1
+    },
+    {
+      "id": "1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d",
+      "fichero": "1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d.json",
+      "titulo": "Prueba de sonido",
+      "artista": "OverTrace",
+      "album": null,
+      "anio": 2026,
+      "seccion": "full_song",
+      "nombre": "Limpio — para comprobar que la cadena suena",
+      "confidence": "user_tuned",
+      "lane_count": 3,
+      "nam_count": 1
+    },
+    {
+      "id": "0f8a12c4-1e2b-4c3d-9a4e-5f6071829304",
+      "fichero": "0f8a12c4-1e2b-4c3d-9a4e-5f6071829304.json",
+      "titulo": "Comfortably Numb",
+      "artista": "Pink Floyd",
+      "album": "The Wall",
+      "anio": 1979,
+      "seccion": "solo",
+      "nombre": "Solo 2 — rig en directo (wet/dry/wet)",
+      "confidence": "inferred",
+      "lane_count": 5,
+      "nam_count": 3
+    },
+    {
+      "id": "9c4d7e21-0a3f-4b8c-9d1e-2f3a4b5c6d7e",
+      "fichero": "9c4d7e21-0a3f-4b8c-9d1e-2f3a4b5c6d7e.json",
+      "titulo": "Comfortably Numb",
+      "artista": "Pink Floyd",
+      "album": "The Wall",
+      "anio": 1979,
+      "seccion": "solo",
+      "nombre": "Solo 2 — variante ligera, solo plugins verificados",
+      "confidence": "inferred",
+      "lane_count": 3,
+      "nam_count": 1,
+      "parent_id": "0f8a12c4-1e2b-4c3d-9a4e-5f6071829304"
+    }
+  ]
+}

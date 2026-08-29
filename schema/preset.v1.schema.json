@@ -1,0 +1,605 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OverTracePreset",
+  "type": "object",
+  "required": [
+    "id",
+    "schema_version",
+    "song",
+    "section",
+    "performance",
+    "stages",
+    "provenance"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "parent_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uuid"
+    },
+    "song": {
+      "type": "object",
+      "required": [
+        "title",
+        "artist"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "artist": {
+          "type": "string"
+        },
+        "album": {
+          "type": "string"
+        },
+        "release_year": {
+          "type": "integer"
+        },
+        "musicbrainz_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "section": {
+      "type": "string",
+      "description": "QUÉ parte de la canción. Un solo eje.",
+      "enum": [
+        "full_song",
+        "intro",
+        "verse",
+        "chorus",
+        "solo",
+        "bridge",
+        "outro"
+      ]
+    },
+    "performance": {
+      "type": "object",
+      "description": "QUÉ interpretación se reconstruye. Eje independiente de 'section'. Es el año de ESTE objeto —no el de publicación— contra el que se valida el anacronismo: un rig de gira de 1994 tocando un tema de 1979 es correcto, no un error.",
+      "required": [
+        "kind"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "studio",
+            "live",
+            "session",
+            "rehearsal"
+          ]
+        },
+        "year": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "description": "Año del rig reconstruido. Si es null, se asume song.release_year."
+        },
+        "label": {
+          "type": "string",
+          "description": "Legible en UI. Ej: 'Gira Division Bell, 1994'."
+        },
+        "tuning": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Afinación. Ej: 'E standard', 'Eb standard', 'Drop D', 'DADGAD'. Está ANTES del jack: ningún DSP la corrige, solo se puede avisar (§7.3)."
+        },
+        "capo_fret": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 12,
+          "description": "Traste de la cejilla. 0 o null = sin cejilla."
+        },
+        "string_gauge": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Ej: '.010-.046'. Relevante cuando es extremo y define el sonido — SRV con .013 medio tono abajo."
+        }
+      }
+    },
+    "source_instrument": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "Instrumento que se afirma que usó el artista. Es el DESTINO de la compensación de pastilla (§7.3): el motor transforma la señal del usuario HACIA esto. Es una afirmación histórica, como 'gear'. Si falta o es null, el compensador queda en NEUTRO — nunca se adivina.",
+      "required": [
+        "pickup_type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "guitar": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Ej: 'Fender Stratocaster 1963'."
+        },
+        "pickup_type": {
+          "type": "string",
+          "enum": [
+            "single_coil",
+            "humbucker",
+            "p90",
+            "filtertron",
+            "active",
+            "piezo",
+            "unknown"
+          ]
+        },
+        "position": {
+          "type": "string",
+          "enum": [
+            "bridge",
+            "middle",
+            "neck",
+            "bridge_middle",
+            "middle_neck",
+            "unknown"
+          ]
+        },
+        "controls": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "description": "Cómo tenía el artista los mandos de la GUITARRA. También está antes del jack. Bajar el volumen limpia un ampli saturado y bajar el tono da la 'woman tone': son parte del sonido, no detalles.",
+          "additionalProperties": false,
+          "properties": {
+            "volume": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 10
+            },
+            "tone": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 10
+            },
+            "coils": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "enum": [
+                "full",
+                "split",
+                "parallel",
+                null
+              ]
+            },
+            "phase": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "enum": [
+                "normal",
+                "out_of_phase",
+                null
+              ]
+            }
+          }
+        },
+        "confidence": {
+          "$ref": "#/$defs/confidence"
+        },
+        "sources": {
+          "$ref": "#/$defs/sourceList"
+        }
+      }
+    },
+    "tuned_for": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "Solo en VARIANTES adaptadas: la guitarra concreta para la que se ajustó este preset. El preset de referencia lo lleva a null. 'source_instrument' NO cambia al adaptar — sigue describiendo lo que usó el artista, que es un hecho histórico.",
+      "required": [
+        "guitar_id"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "guitar_id": {
+          "type": "string",
+          "description": "Clave en profiles/instruments.json. Ej: 'harley-benton-cst-24'."
+        },
+        "display_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "position_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Posición recomendada del selector. Ej: 'bridge_split'."
+        },
+        "pickups_swapped": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Si el usuario cambió las pastillas de fábrica, qué lleva ahora. Invalida el perfil del catálogo para esta guitarra."
+        },
+        "adapted_by": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Modelo que hizo la adaptación, o null si fue a oído."
+        }
+      }
+    },
+    "name": {
+      "type": "string"
+    },
+    "stages": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Etapas en serie. Cada una suma sus carriles antes de pasar a la siguiente.",
+      "items": {
+        "$ref": "#/$defs/stage"
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "description": "Procedencia del preset EN CONJUNTO. La de cada nodo va en el nodo.",
+      "required": [
+        "confidence",
+        "sources"
+      ],
+      "properties": {
+        "confidence": {
+          "$ref": "#/$defs/confidence"
+        },
+        "sources": {
+          "$ref": "#/$defs/sourceList"
+        },
+        "generated_by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "generated_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "stage": {
+      "type": "object",
+      "required": [
+        "role",
+        "lanes"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "role": {
+          "type": "string",
+          "enum": [
+            "input",
+            "pre",
+            "amp",
+            "loop",
+            "post"
+          ],
+          "description": "Etiqueta de agrupación para la UI y guía para el agente. NO es estructura: puede haber varias etapas con el mismo rol, o ninguna."
+        },
+        "label": {
+          "type": "string"
+        },
+        "lanes": {
+          "type": "array",
+          "minItems": 1,
+          "description": "Carriles en paralelo. Con un solo carril no hay mezcla: el motor omite el sumador y la etapa es una cadena en serie.",
+          "items": {
+            "$ref": "#/$defs/lane"
+          }
+        }
+      }
+    },
+    "lane": {
+      "type": "object",
+      "required": [
+        "nodes"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "label": {
+          "type": "string"
+        },
+        "gain_db": {
+          "type": "number",
+          "default": 0,
+          "minimum": -60,
+          "maximum": 12
+        },
+        "pan": {
+          "type": "number",
+          "default": 0,
+          "minimum": -1,
+          "maximum": 1,
+          "description": "-1 izquierda · 0 centro · +1 derecha"
+        },
+        "nodes": {
+          "$ref": "#/$defs/nodeList"
+        }
+      }
+    },
+    "nodeList": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "module_uri",
+          "confidence"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "module_uri": {
+            "type": "string",
+            "description": "DEBE existir en el catálogo de módulos. El agente recibe el enum."
+          },
+          "fallback_uri": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Módulo del NÚCLEO que sustituye a éste donde 'module_uri' no esté disponible. Obligatorio si 'module_uri' no es del núcleo; ignorado si lo es (ADR-03, §8.3)."
+          },
+          "label": {
+            "type": "string"
+          },
+          "enabled": {
+            "type": "boolean",
+            "default": true
+          },
+          "gear": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "description": "El equipo REAL que se afirma que usó el artista. Es una afirmación histórica y es independiente de qué fichero se cargue para aproximarla. ES ESTO —y no 'asset'— lo que valida el anacronismo.",
+            "required": [
+              "name"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "maker": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "year": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "description": "Año de introducción del equipo. null = desconocido: entonces NO se comprueba, en lugar de inventarlo."
+              },
+              "settings": {
+                "type": [
+                  "object",
+                  "null"
+                ],
+                "description": "Cómo estaba ajustado el equipo REAL, tal como se afirma. Es una afirmación histórica sobre el aparato —«el Hiwatt tenía el Master a 7»— y NO un parámetro de DSP: no se envía a ningún módulo. Vive aquí y no en 'params' porque una captura NAM es una instantánea de un ajuste concreto y ya no tiene mandos que girar; ponerlos en 'params' hacía creer al usuario que movían algo. La UI los dibuja como lo que son: la posición en la que estaban, informativa. Claves y valores libres: cada aparato tiene los mandos que tiene.",
+                "additionalProperties": {
+                  "type": [
+                    "number",
+                    "string",
+                    "boolean",
+                    "null"
+                  ]
+                }
+              }
+            }
+          },
+          "params": {
+            "type": "object",
+            "default": {},
+            "description": "symbol → valor. Rangos y unidades los declara el módulo, no el preset.",
+            "additionalProperties": {
+              "type": "number"
+            }
+          },
+          "asset": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "required": [
+              "kind",
+              "display_name",
+              "source_url"
+            ],
+            "properties": {
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "nam",
+                  "ir",
+                  "aida"
+                ]
+              },
+              "display_name": {
+                "type": "string"
+              },
+              "source_url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "sha256": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "license": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "match": {
+                "type": "string",
+                "default": "similar",
+                "enum": [
+                  "exact",
+                  "same_model",
+                  "similar",
+                  "class"
+                ],
+                "description": "Cómo de cerca está ESTE fichero del 'gear' declarado. exact = captura del ejemplar concreto; same_model = otro ejemplar del mismo modelo; similar = equipo parecido; class = solo la familia sonora. NUNCA es motivo de rechazo: es información que la UI muestra."
+              },
+              "fallback_class": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "Clase sonora equivalente si el asset exacto no está disponible."
+              }
+            }
+          },
+          "confidence": {
+            "$ref": "#/$defs/confidence",
+            "description": "POR NODO. Que el amplificador esté documentado no significa que la posición de las perillas lo esté — casi nunca lo está."
+          },
+          "sources": {
+            "$ref": "#/$defs/sourceList",
+            "description": "Citas de ESTE nodo — lo que la UI muestra al pulsar su semáforo. Sin este campo, un 'confidence' por nodo no se puede justificar ni auditar, y el semáforo pasa a ser decorativo."
+          },
+          "note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "prefer": {
+            "type": "array",
+            "default": [],
+            "description": "Implementaciones preferidas para esta capacidad, en orden. El motor coge la primera que exista en la máquina; si no hay ninguna, usa el módulo del núcleo que declara 'module_uri'. Formato: 'clap:<id>' o 'lv2:<uri>'. Es lo que permite que un mismo preset suene en Linux y en Windows con distinto acabado pero sin huecos (ADR-03).\n\nDos formas, y las dos válidas. La corta —una cadena— dice solo qué plugin se prefiere. La larga añade 'params': los mandos PROPIOS de ese plugin, los que la capacidad del núcleo no sabe nombrar. Un reverb de placa tiene dieciocho controles y 'overtrace:reverb' solo modela dos; sin esta forma, los otros dieciséis se quedaban en su valor por defecto y no había manera de tocarlos.\n\nEl reparto es deliberado: 'params' del nodo son de la CAPACIDAD y viajan a cualquier máquina; estos son de UNA implementación y solo se aplican si es justo esa la que se resolvió. En otra máquina se ignoran y manda la capacidad — degradar, no romper (§8.3). Por eso no pueden vivir juntos: mezclarlos haría que un preset significara cosas distintas según dónde se abra, sin avisar.",
+            "items": {
+              "oneOf": [
+                {
+                  "type": "string",
+                  "description": "Forma corta: solo la implementación preferida."
+                },
+                {
+                  "type": "object",
+                  "description": "Forma larga: la implementación y sus mandos propios.",
+                  "required": [
+                    "uri"
+                  ],
+                  "additionalProperties": false,
+                  "properties": {
+                    "uri": {
+                      "type": "string",
+                      "description": "'clap:<id>' o 'lv2:<uri>'."
+                    },
+                    "params": {
+                      "type": "object",
+                      "description": "Mandos propios del plugin, por su symbol. El motor los recorta al rango real del puerto al instanciar: el rango vive en el plugin, no aquí, y así no se queda obsoleto.",
+                      "additionalProperties": {
+                        "type": [
+                          "number",
+                          "boolean"
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "documented",
+        "inferred",
+        "estimated",
+        "user_tuned"
+      ]
+    },
+    "sourceList": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "quote": {
+          "type": "string",
+          "maxLength": 200,
+          "description": "Extracto CORTO. El valor está en la url, no en reproducir la entrevista: un quote largo mete texto ajeno con copyright en el corpus de entrenamiento (§14.3, R-15)."
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "interview",
+            "equipboard",
+            "forum",
+            "video",
+            "liner_notes",
+            "other"
+          ]
+        }
+      }
+    }
+  }
+}
