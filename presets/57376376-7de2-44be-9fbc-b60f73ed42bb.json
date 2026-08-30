@@ -1,0 +1,150 @@
+{
+  "id": "57376376-7de2-44be-9fbc-b60f73ed42bb",
+  "schema_version": 1,
+  "song": {
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "release_year": 1975
+  },
+  "section": "solo",
+  "performance": {
+    "kind": "studio",
+    "year": 1975,
+    "tuning": "E standard"
+  },
+  "source_instrument": {
+    "guitar": "Red Special (Burns Tri-Sonic Pickups)",
+    "pickup_type": "single_coil",
+    "position": "bridge_middle",
+    "confidence": "documented",
+    "sources": [
+      {
+        "url": "https://equipboard.com/pros/brian-may",
+        "kind": "forum",
+        "quote": "Brian May's iconic solo tone: Red Special Burns Tri-Sonic in series + Dallas Rangemaster Treble Booster into a cranked Vox AC30."
+      }
+    ]
+  },
+  "tuned_for_guitar": "harley-benton-cst-24",
+  "name": "Solo Legendario — Brian May (Treble Booster + Vox AC30 Top Boost)",
+  "stages": [
+    {
+      "role": "pre",
+      "label": "Treble Booster y Dinámica",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:gate",
+              "label": "Gate",
+              "params": {
+                "threshold": -46.0,
+                "release_ms": 80.0
+              },
+              "confidence": "estimated"
+            },
+            {
+              "module_uri": "overtrace:drive",
+              "label": "Dallas Rangemaster Treble Booster",
+              "params": {
+                "drive": 0.25,
+                "tone": 0.85,
+                "level": 0.75
+              },
+              "confidence": "documented",
+              "note": "Empuja las válvulas del Vox AC30 saturando los agudos con ese sustain líquido y armónico de Brian May."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "amp",
+      "label": "Amplificador Vox AC30",
+      "lanes": [
+        {
+          "gain_db": 0.0,
+          "pan": 0.0,
+          "nodes": [
+            {
+              "module_uri": "overtrace:nam",
+              "label": "Vox AC30 Top Boost",
+              "gear": {
+                "name": "Vox AC30 Top Boost",
+                "maker": "Vox",
+                "year": 1964
+              },
+              "params": {
+                "input_level": 2.0,
+                "output_level": 0.0
+              },
+              "asset": {
+                "kind": "nam",
+                "display_name": "Vox AC30 Top Boost",
+                "fallback_class": "british_combo_chime"
+              },
+              "confidence": "documented"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "post",
+      "label": "Pantalla Alnico y Espacio",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:ir",
+              "label": "Vox 2x12 Celestion Blue Alnico",
+              "params": {
+                "mix": 1.0
+              },
+              "confidence": "documented"
+            },
+            {
+              "module_uri": "overtrace:delay",
+              "label": "Delay de Cinta Sutil",
+              "params": {
+                "time_ms": 320.0,
+                "feedback": 0.22,
+                "mix": 0.16
+              },
+              "confidence": "documented"
+            },
+            {
+              "module_uri": "overtrace:reverb",
+              "label": "Reverb de Sala",
+              "params": {
+                "decay": 1.6,
+                "mix": 0.18
+              },
+              "confidence": "documented"
+            },
+            {
+              "module_uri": "overtrace:limiter",
+              "label": "Limitador",
+              "params": {
+                "ceiling": -0.3
+              },
+              "confidence": "estimated"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "confidence": "documented",
+    "sources": [
+      {
+        "url": "https://equipboard.com/pros/brian-may",
+        "kind": "forum",
+        "quote": "Documented rig: Red Special, Dallas Rangemaster, Vox AC30 Top Boost, Celestion Blue 2x12."
+      }
+    ],
+    "generated_by": "OverTrace Community Tone Engine",
+    "generated_at": "2026-08-29T22:45:00.000000+00:00"
+  }
+}

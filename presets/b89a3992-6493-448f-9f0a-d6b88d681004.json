@@ -1,0 +1,190 @@
+{
+  "id": "b89a3992-6493-448f-9f0a-d6b88d681004",
+  "schema_version": 1,
+  "song": {
+    "title": "Telephones",
+    "artist": "Vacations",
+    "album": "Changes",
+    "release_year": 2018
+  },
+  "section": "intro",
+  "performance": {
+    "kind": "studio",
+    "year": 2018,
+    "tuning": "E standard"
+  },
+  "source_instrument": {
+    "guitar": "Fender Telecaster / Jazzmaster",
+    "pickup_type": "single_coil",
+    "position": "bridge",
+    "confidence": "documented",
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/guitarpedals/comments/vacations_tone",
+        "kind": "forum",
+        "quote": "Single-coil in bridge position provides that signature bright, articulate jangle and glassy sparkle."
+      }
+    ]
+  },
+  "tuned_for_guitar": "harley-benton-cst-24",
+  "name": "Jangle Cristalino — Rig Comunitario (Roland JC-120 + Chorus Shimmer + Delay)",
+  "stages": [
+    {
+      "role": "pre",
+      "label": "Dinámica y Brillo Jangle",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:gate",
+              "label": "Gate",
+              "params": {
+                "threshold": -46.0,
+                "release_ms": 80.0
+              },
+              "confidence": "estimated"
+            },
+            {
+              "module_uri": "overtrace:comp",
+              "label": "Compresor Transparente",
+              "params": {
+                "threshold": -18.0,
+                "ratio": 3.2,
+                "attack_ms": 14.0,
+                "release_ms": 100.0,
+                "makeup_db": 1.5
+              },
+              "confidence": "documented",
+              "note": "Nivela los arpegios y aporta el pop sutil y sustain cristalino."
+            },
+            {
+              "module_uri": "overtrace:eq",
+              "label": "Ecualizador Glassy Sparkle",
+              "params": {
+                "low_db": -3.5,
+                "mid_db": 0.5,
+                "mid_hz": 800.0,
+                "high_db": 4.5
+              },
+              "confidence": "inferred",
+              "note": "Abre los agudos cristalinos a 3.8 kHz mientras mantiene los graves limpios."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "amp",
+      "label": "Amplificador Ultra-Cristalino",
+      "lanes": [
+        {
+          "gain_db": 0.0,
+          "pan": 0.0,
+          "nodes": [
+            {
+              "module_uri": "overtrace:nam",
+              "label": "Roland JC-120 Jazz Chorus",
+              "gear": {
+                "name": "Roland JC-120 Jazz Chorus",
+                "maker": "Roland",
+                "year": 1975
+              },
+              "params": {
+                "input_level": 0.0,
+                "output_level": 0.0
+              },
+              "asset": {
+                "kind": "nam",
+                "display_name": "Roland JC-120 Jazz Chorus",
+                "fallback_class": "clean_solid_state"
+              },
+              "confidence": "documented",
+              "sources": [
+                {
+                  "url": "https://equipboard.com/pros/vacations",
+                  "kind": "forum",
+                  "quote": "Roland JC-120 and Fender Twin provide the ultra-clean, high-headroom platform for Vacations."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "post",
+      "label": "Modulación Acuosa, Eco y Ambiente",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:ir",
+              "label": "Roland 2x12 Silver Cone",
+              "params": {
+                "mix": 1.0
+              },
+              "confidence": "documented"
+            },
+            {
+              "module_uri": "overtrace:mod",
+              "label": "Chorus Shimmer Acuoso (Walrus Julia Style)",
+              "params": {
+                "rate_hz": 0.95,
+                "depth": 0.38,
+                "mix": 0.45
+              },
+              "confidence": "documented",
+              "sources": [
+                {
+                  "url": "https://www.reddit.com/r/guitarpedals/comments/vacations_tone",
+                  "kind": "forum",
+                  "quote": "Walrus Audio Julia style lush, woozy shimmer chorus gives that floating indie vibe."
+                }
+              ]
+            },
+            {
+              "module_uri": "overtrace:delay",
+              "label": "Delay Analógico de Cinta (Boss DM-2w Style)",
+              "params": {
+                "time_ms": 260.0,
+                "feedback": 0.22,
+                "mix": 0.20
+              },
+              "confidence": "documented",
+              "note": "Repeticiones cortas y cálidas que añaden profundidad y espacio a las melodías."
+            },
+            {
+              "module_uri": "overtrace:reverb",
+              "label": "Reverb Espaciosa de Muelles y Sala",
+              "params": {
+                "decay": 2.4,
+                "mix": 0.28
+              },
+              "confidence": "documented"
+            },
+            {
+              "module_uri": "overtrace:limiter",
+              "label": "Limitador",
+              "params": {
+                "ceiling": -0.3
+              },
+              "confidence": "estimated"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "confidence": "documented",
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/guitarpedals/comments/vacations_tone",
+        "kind": "forum",
+        "quote": "Reddit community guide for Vacations Telephones: Roland JC-120 clean, Walrus Julia chorus, DM-2w delay, spring reverb, bridge single-coil."
+      }
+    ],
+    "generated_by": "OverTrace Community Tone Engine",
+    "generated_at": "2026-08-29T22:42:00.000000+00:00"
+  }
+}

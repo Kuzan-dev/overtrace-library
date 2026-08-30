@@ -1,0 +1,134 @@
+{
+  "id": "6aa82530-bb96-40c4-a075-924b6fa3d0ed",
+  "schema_version": 1,
+  "song": {
+    "title": "Back In Black",
+    "artist": "AC/DC",
+    "album": "Back In Black",
+    "release_year": 1980
+  },
+  "section": "riff",
+  "performance": {
+    "kind": "studio",
+    "year": 1980,
+    "tuning": "E standard"
+  },
+  "source_instrument": {
+    "guitar": "Gibson Les Paul / SG",
+    "pickup_type": "humbucker",
+    "position": "bridge",
+    "confidence": "inferred"
+  },
+  "tuned_for_guitar": "harley-benton-cst-24",
+  "name": "Riff — rig histórico recreado por IA",
+  "stages": [
+    {
+      "role": "pre",
+      "label": "Pedales Previos",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:gate",
+              "label": "Gate",
+              "params": {
+                "threshold": -44.0,
+                "release_ms": 80.0
+              },
+              "confidence": "estimated",
+              "note": "Puerta de ruido inteligente calibrada para silenciar pastillas."
+            },
+            {
+              "module_uri": "overtrace:drive",
+              "label": "Boss SD-1 Super Overdrive",
+              "params": {
+                "drive": 0.3,
+                "tone": 0.55,
+                "level": 0.65
+              },
+              "confidence": "inferred",
+              "prefer": [
+                "lv2:http://guitarix.sourceforge.net/plugins/gxts9#ts9sim"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "amp",
+      "label": "Amplificador",
+      "lanes": [
+        {
+          "gain_db": 0.0,
+          "pan": 0.0,
+          "nodes": [
+            {
+              "module_uri": "overtrace:nam",
+              "label": "Marshall JCM800 2203",
+              "gear": {
+                "name": "Marshall JCM800 2203",
+                "maker": "Marshall",
+                "year": 1981
+              },
+              "params": {
+                "input_level": 0.0,
+                "output_level": 0.0
+              },
+              "asset": {
+                "kind": "nam",
+                "display_name": "Marshall JCM800 2203",
+                "fallback_class": "british_crunch"
+              },
+              "confidence": "inferred"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "post",
+      "label": "Pantalla y Espacio",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:ir",
+              "label": "Marshall 1960A 4x12 Greenback",
+              "params": {
+                "mix": 1.0
+              },
+              "confidence": "inferred"
+            },
+            {
+              "module_uri": "overtrace:reverb",
+              "label": "Reverberación",
+              "params": {
+                "decay": 1.5,
+                "mix": 0.15
+              },
+              "confidence": "inferred",
+              "prefer": [
+                "lv2:http://guitarix.sourceforge.net/plugins/gx_reverb_stereo#_reverb_stereo"
+              ]
+            },
+            {
+              "module_uri": "overtrace:limiter",
+              "label": "Limitador",
+              "params": {
+                "ceiling": -0.3
+              },
+              "confidence": "estimated"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "confidence": "inferred",
+    "sources": [],
+    "generated_by": "OverTrace AI Tone Reconstructor v2.0",
+    "generated_at": "2026-08-30T14:02:38.174239+00:00"
+  }
+}

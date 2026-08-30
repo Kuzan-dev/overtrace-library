@@ -3,54 +3,75 @@
   "nota": "Guitarras conocidas y las posiciones de su selector — §7.3. Sirve para recomendar QUÉ POSICIÓN usar antes de aplicar ninguna ecualización: un cambio de selector es exacto, un filtro es una aproximación. Crece por PR como el catálogo de presets (§9.4).",
   "guitarras": {
     "harley-benton-cst-24": {
-      "display_name": "Harley Benton CST-24", "escala_pulgadas": 24.75,
-      "electronica": "pasiva", "prestaciones": ["coil_split"],
+      "display_name": "Harley Benton CST-24",
+      "escala_pulgadas": 24.75,
+      "electronica": "pasiva",
+      "prestaciones": [
+        "coil_split"
+      ],
       "posiciones": [
-        { "id": "bridge",       "label": "Puente",              "pickup_type": "humbucker",   "position": "bridge" },
-        { "id": "bridge_split", "label": "Puente + coil-split", "pickup_type": "single_coil", "position": "bridge" },
-        { "id": "middle",       "label": "Medio (ambas)",       "pickup_type": "humbucker",   "position": "middle" },
-        { "id": "middle_split", "label": "Medio + coil-split",  "pickup_type": "single_coil", "position": "middle" },
-        { "id": "neck",         "label": "Mástil",              "pickup_type": "humbucker",   "position": "neck" },
-        { "id": "neck_split",   "label": "Mástil + coil-split", "pickup_type": "single_coil", "position": "neck" }
-      ]
-    },
-    "prs-se-custom-24": {
-      "display_name": "PRS SE Custom 24", "escala_pulgadas": 25.0,
-      "electronica": "pasiva", "prestaciones": ["coil_split"],
-      "posiciones": [
-        { "id": "bridge",       "label": "Puente",              "pickup_type": "humbucker",   "position": "bridge" },
-        { "id": "bridge_split", "label": "Puente (coil-split)", "pickup_type": "single_coil", "position": "bridge" },
-        { "id": "neck",         "label": "Mástil",              "pickup_type": "humbucker",   "position": "neck" },
-        { "id": "neck_split",   "label": "Mástil (coil-split)", "pickup_type": "single_coil", "position": "neck" }
-      ]
-    },
-    "fender-stratocaster": {
-      "display_name": "Fender Stratocaster", "escala_pulgadas": 25.5,
-      "electronica": "pasiva", "prestaciones": [],
-      "posiciones": [
-        { "id": "bridge",        "label": "Puente",         "pickup_type": "single_coil", "position": "bridge" },
-        { "id": "bridge_middle", "label": "Puente + medio", "pickup_type": "single_coil", "position": "bridge_middle" },
-        { "id": "middle",        "label": "Medio",          "pickup_type": "single_coil", "position": "middle" },
-        { "id": "middle_neck",   "label": "Medio + mástil", "pickup_type": "single_coil", "position": "middle_neck" },
-        { "id": "neck",          "label": "Mástil",         "pickup_type": "single_coil", "position": "neck" }
+        {
+          "id": "bridge",
+          "label": "Puente",
+          "pickup_type": "humbucker",
+          "position": "bridge"
+        },
+        {
+          "id": "bridge_split",
+          "label": "Puente + coil-split",
+          "pickup_type": "single_coil",
+          "position": "bridge"
+        },
+        {
+          "id": "middle",
+          "label": "Medio (ambas)",
+          "pickup_type": "humbucker",
+          "position": "middle"
+        },
+        {
+          "id": "middle_split",
+          "label": "Medio + coil-split",
+          "pickup_type": "single_coil",
+          "position": "middle"
+        },
+        {
+          "id": "neck",
+          "label": "Mástil",
+          "pickup_type": "humbucker",
+          "position": "neck"
+        },
+        {
+          "id": "neck_split",
+          "label": "Mástil + coil-split",
+          "pickup_type": "single_coil",
+          "position": "neck"
+        }
       ]
     },
     "gibson-les-paul": {
-      "display_name": "Gibson Les Paul", "escala_pulgadas": 24.75,
-      "electronica": "pasiva", "prestaciones": [],
+      "display_name": "Gibson Les Paul",
+      "escala_pulgadas": 24.75,
+      "electronica": "pasiva",
+      "prestaciones": [],
       "posiciones": [
-        { "id": "bridge", "label": "Puente",  "pickup_type": "humbucker", "position": "bridge" },
-        { "id": "middle", "label": "Ambas",   "pickup_type": "humbucker", "position": "middle" },
-        { "id": "neck",   "label": "Mástil",  "pickup_type": "humbucker", "position": "neck" }
-      ]
-    },
-    "fender-telecaster": {
-      "display_name": "Fender Telecaster", "escala_pulgadas": 25.5,
-      "electronica": "pasiva", "prestaciones": [],
-      "posiciones": [
-        { "id": "bridge", "label": "Puente", "pickup_type": "single_coil", "position": "bridge" },
-        { "id": "middle", "label": "Ambas",  "pickup_type": "single_coil", "position": "middle" },
-        { "id": "neck",   "label": "Mástil", "pickup_type": "single_coil", "position": "neck" }
+        {
+          "id": "bridge",
+          "label": "Puente",
+          "pickup_type": "humbucker",
+          "position": "bridge"
+        },
+        {
+          "id": "middle",
+          "label": "Ambas",
+          "pickup_type": "humbucker",
+          "position": "middle"
+        },
+        {
+          "id": "neck",
+          "label": "Mástil",
+          "pickup_type": "humbucker",
+          "position": "neck"
+        }
       ]
     }
   }

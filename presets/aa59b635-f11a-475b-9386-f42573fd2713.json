@@ -1,0 +1,144 @@
+{
+  "id": "aa59b635-f11a-475b-9386-f42573fd2713",
+  "schema_version": 1,
+  "song": {
+    "title": "Lithium",
+    "artist": "Nirvana",
+    "album": "Nevermind",
+    "release_year": 1991
+  },
+  "section": "solo",
+  "performance": {
+    "kind": "studio",
+    "year": 1991,
+    "tuning": "E standard"
+  },
+  "source_instrument": {
+    "guitar": "Fender Mustang / Jaguar con Humbucker",
+    "pickup_type": "humbucker",
+    "position": "bridge",
+    "confidence": "inferred"
+  },
+  "tuned_for_guitar": "harley-benton-cst-24",
+  "name": "Solo — rig histórico recreado por IA",
+  "stages": [
+    {
+      "role": "pre",
+      "label": "Pedales Previos",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:gate",
+              "label": "Gate",
+              "params": {
+                "threshold": -44.0,
+                "release_ms": 80.0
+              },
+              "confidence": "estimated",
+              "note": "Puerta de ruido inteligente calibrada para silenciar pastillas."
+            },
+            {
+              "module_uri": "overtrace:drive",
+              "label": "Boss DS-1 Distortion",
+              "params": {
+                "drive": 0.75,
+                "tone": 0.5,
+                "level": 0.65
+              },
+              "confidence": "inferred",
+              "prefer": [
+                "lv2:http://guitarix.sourceforge.net/plugins/gxts9#ts9sim"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "amp",
+      "label": "Amplificador",
+      "lanes": [
+        {
+          "gain_db": 0.0,
+          "pan": 0.0,
+          "nodes": [
+            {
+              "module_uri": "overtrace:nam",
+              "label": "Fender Twin Reverb / Mesa Preamp",
+              "gear": {
+                "name": "Fender Twin Reverb / Mesa Preamp",
+                "maker": "Fender",
+                "year": 1968
+              },
+              "params": {
+                "input_level": 0.0,
+                "output_level": 0.0
+              },
+              "asset": {
+                "kind": "nam",
+                "display_name": "Fender Twin Reverb / Mesa Preamp",
+                "fallback_class": "british_crunch"
+              },
+              "confidence": "inferred"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "post",
+      "label": "Pantalla y Espacio",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:ir",
+              "label": "Marshall 1960A 4x12",
+              "params": {
+                "mix": 1.0
+              },
+              "confidence": "inferred"
+            },
+            {
+              "module_uri": "overtrace:mod",
+              "label": "Chorus / Modulación",
+              "params": {
+                "rate_hz": 0.6,
+                "depth": 0.65,
+                "mix": 0.4
+              },
+              "confidence": "inferred"
+            },
+            {
+              "module_uri": "overtrace:reverb",
+              "label": "Reverberación",
+              "params": {
+                "decay": 1.6,
+                "mix": 0.15
+              },
+              "confidence": "inferred",
+              "prefer": [
+                "lv2:http://guitarix.sourceforge.net/plugins/gx_reverb_stereo#_reverb_stereo"
+              ]
+            },
+            {
+              "module_uri": "overtrace:limiter",
+              "label": "Limitador",
+              "params": {
+                "ceiling": -0.3
+              },
+              "confidence": "estimated"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "confidence": "inferred",
+    "sources": [],
+    "generated_by": "OverTrace AI Tone Reconstructor v2.0",
+    "generated_at": "2026-08-30T14:22:52.539069+00:00"
+  }
+}

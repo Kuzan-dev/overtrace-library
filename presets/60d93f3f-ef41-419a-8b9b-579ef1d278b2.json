@@ -1,0 +1,121 @@
+{
+  "id": "60d93f3f-ef41-419a-8b9b-579ef1d278b2",
+  "schema_version": 1,
+  "song": {
+    "title": "Master of Puppets",
+    "artist": "Metallica",
+    "release_year": 1985
+  },
+  "section": "riff",
+  "performance": {
+    "kind": "studio",
+    "year": 1985,
+    "tuning": "E standard"
+  },
+  "source_instrument": {
+    "guitar": "ESP / Ibanez con Humbuckers",
+    "pickup_type": "humbucker",
+    "position": "bridge",
+    "confidence": "inferred"
+  },
+  "tuned_for_guitar": "harley-benton-cst-24",
+  "name": "Riff — rig de tono recreado por IA",
+  "stages": [
+    {
+      "role": "pre",
+      "label": "Pedales Previos",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:gate",
+              "label": "Gate",
+              "params": {
+                "threshold": -44.0,
+                "release_ms": 80.0
+              },
+              "confidence": "estimated",
+              "note": "Puerta de ruido calibrada para eliminar zumbidos en silencio."
+            },
+            {
+              "module_uri": "overtrace:drive",
+              "label": "Overdrive Clean Boost",
+              "params": {
+                "drive": 0.1,
+                "tone": 0.65,
+                "level": 0.8
+              },
+              "confidence": "inferred",
+              "prefer": [
+                "lv2:http://guitarix.sourceforge.net/plugins/gxts9#ts9sim"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "amp",
+      "label": "Amplificador",
+      "lanes": [
+        {
+          "gain_db": 0.0,
+          "pan": 0.0,
+          "nodes": [
+            {
+              "module_uri": "overtrace:nam",
+              "label": "Mesa/Boogie Dual Rectifier",
+              "gear": {
+                "name": "Mesa/Boogie Dual Rectifier",
+                "maker": "Mesa/Boogie",
+                "year": 1992
+              },
+              "params": {
+                "input_level": 0.0,
+                "output_level": 0.0
+              },
+              "asset": {
+                "kind": "nam",
+                "display_name": "Mesa/Boogie Dual Rectifier",
+                "fallback_class": "american_high_gain"
+              },
+              "confidence": "inferred"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "post",
+      "label": "Pantalla y Espacio",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:ir",
+              "label": "Mesa Traditional 4x12 V30",
+              "params": {
+                "mix": 1.0
+              },
+              "confidence": "inferred"
+            },
+            {
+              "module_uri": "overtrace:limiter",
+              "label": "Limitador",
+              "params": {
+                "ceiling": -0.3
+              },
+              "confidence": "estimated"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "confidence": "inferred",
+    "sources": [],
+    "generated_by": "OverTrace AI Tone Reconstructor v2.0",
+    "generated_at": "2026-08-29T21:31:56.737951+00:00"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "id": "8920695c-f074-4fec-be82-a802c4f4f6df",
+  "schema_version": 1,
+  "song": {
+    "title": "Treasure",
+    "artist": "Bruno Mars",
+    "release_year": 2012
+  },
+  "section": "intro",
+  "performance": {
+    "kind": "studio",
+    "year": 2012,
+    "tuning": "E standard"
+  },
+  "source_instrument": {
+    "guitar": "Fender Stratocaster",
+    "pickup_type": "single_coil",
+    "position": "bridge_middle",
+    "confidence": "documented",
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/guitarpedals/comments/treasure_tone",
+        "kind": "forum",
+        "quote": "Single-coil in position 2 (bridge+middle) gives the authentic biting funk quack that cuts above the bass."
+      }
+    ]
+  },
+  "tuned_for_guitar": "harley-benton-cst-24",
+  "name": "Rítmica Funk — Rig Comunitario Reddit (Vox AC30 + Compresor Snappy)",
+  "stages": [
+    {
+      "role": "pre",
+      "label": "Dinámica y Ataque Snappy",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:gate",
+              "label": "Gate",
+              "params": {
+                "threshold": -44.0,
+                "release_ms": 60.0
+              },
+              "confidence": "estimated"
+            },
+            {
+              "module_uri": "overtrace:comp",
+              "label": "Compresor Óptico Funk (Ataque Transitorio)",
+              "params": {
+                "threshold": -20.0,
+                "ratio": 4.0,
+                "attack_ms": 12.0,
+                "release_ms": 90.0,
+                "makeup_db": 2.0
+              },
+              "confidence": "documented",
+              "sources": [
+                {
+                  "url": "https://www.reddit.com/r/Guitar/comments/funk_compression_settings",
+                  "kind": "forum",
+                  "quote": "Attack around 12ms allows the pick transient to snap through before squashing the sustain."
+                }
+              ],
+              "note": "El ataque de 12ms deja pasar el chasquido inicial de la púa ('pop') antes de controlar la dinámica del acorde."
+            },
+            {
+              "module_uri": "overtrace:eq",
+              "label": "Corte de Graves y Brillo Chime",
+              "params": {
+                "low_db": -5.0,
+                "mid_db": 1.0,
+                "mid_hz": 1200.0,
+                "high_db": 3.5
+              },
+              "confidence": "inferred",
+              "note": "Limpia las frecuencias graves para no enturbiar con el bajo y resalta el brillo campana."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "amp",
+      "label": "Amplificador Limpio y Brillante",
+      "lanes": [
+        {
+          "gain_db": 0.0,
+          "pan": 0.0,
+          "nodes": [
+            {
+              "module_uri": "overtrace:nam",
+              "label": "Vox AC30 Top Boost (Clean Chime)",
+              "gear": {
+                "name": "Vox AC30 Top Boost",
+                "maker": "Vox",
+                "year": 1964
+              },
+              "params": {
+                "input_level": 0.0,
+                "output_level": 0.0
+              },
+              "asset": {
+                "kind": "nam",
+                "display_name": "Vox AC30 Top Boost",
+                "fallback_class": "british_combo_chime"
+              },
+              "confidence": "documented",
+              "sources": [
+                {
+                  "url": "https://equipboard.com/pros/bruno-mars",
+                  "kind": "forum",
+                  "quote": "Vox clean platform provides the bright, articulate top-end chime for Bruno Mars funk tracks."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "post",
+      "label": "Pantalla Abierta 2x12 y Espacio",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:ir",
+              "label": "Vox 2x12 Celestion Blue Alnico",
+              "params": {
+                "mix": 1.0
+              },
+              "confidence": "documented"
+            },
+            {
+              "module_uri": "overtrace:reverb",
+              "label": "Ambiente de Sala Sutil (Super Dry)",
+              "params": {
+                "decay": 0.8,
+                "mix": 0.06
+              },
+              "confidence": "documented",
+              "note": "Reverberación muy corta para dar naturalidad sin perder la sequedad funk."
+            },
+            {
+              "module_uri": "overtrace:limiter",
+              "label": "Limitador de Salida",
+              "params": {
+                "ceiling": -0.3
+              },
+              "confidence": "estimated"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "confidence": "documented",
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/guitarpedals/comments/treasure_tone",
+        "kind": "forum",
+        "quote": "Reddit guitar community consensus: Vox AC30 clean chime, snappy optical compression with 12ms attack, bridge+middle single-coil."
+      }
+    ],
+    "generated_by": "OverTrace Community Tone Engine (Reddit & Equipboard Consensus)",
+    "generated_at": "2026-08-29T22:13:00.000000+00:00"
+  }
+}

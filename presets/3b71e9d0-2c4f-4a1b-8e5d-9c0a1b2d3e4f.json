@@ -32,13 +32,22 @@
         {
           "nodes": [
             {
+              "module_uri": "overtrace:gate",
+              "label": "Gate",
+              "params": {
+                "threshold": -44,
+                "release_ms": 80
+              },
+              "confidence": "estimated"
+            },
+            {
               "module_uri": "overtrace:comp",
               "label": "Compresor",
               "params": {
                 "threshold": -20,
                 "ratio": 3,
                 "attack_ms": 15,
-                "makeup_db": 4
+                "makeup_db": 1
               },
               "confidence": "documented"
             },
@@ -51,9 +60,9 @@
                 "year": 1979
               },
               "params": {
-                "drive": 0.2,
-                "tone": 0.6,
-                "level": 0.7
+                "drive": 0.15,
+                "tone": 0.55,
+                "level": 0.5
               },
               "confidence": "inferred",
               "note": "Ligero empuje para el sustain de las notas del riff."
@@ -78,7 +87,7 @@
                 "year": 1964
               },
               "params": {
-                "input_level": 12
+                "input_level": 0
               },
               "asset": {
                 "kind": "nam",

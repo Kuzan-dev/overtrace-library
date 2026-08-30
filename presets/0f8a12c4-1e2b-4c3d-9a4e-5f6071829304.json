@@ -42,7 +42,8 @@
               "module_uri": "overtrace:gate",
               "label": "Gate",
               "params": {
-                "threshold": -60
+                "threshold": -44,
+                "release_ms": 80
               },
               "confidence": "estimated",
               "note": "Necesario por el ruido de las bobinas simples con mucha ganancia. No documentado."

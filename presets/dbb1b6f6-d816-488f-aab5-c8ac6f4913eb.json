@@ -1,0 +1,159 @@
+{
+  "id": "dbb1b6f6-d816-488f-aab5-c8ac6f4913eb",
+  "schema_version": 1,
+  "song": {
+    "title": "Time",
+    "artist": "Pink Floyd",
+    "album": "The Dark Side of the Moon",
+    "release_year": 1973
+  },
+  "section": "solo",
+  "performance": {
+    "kind": "studio",
+    "year": 1973,
+    "tuning": "E standard"
+  },
+  "source_instrument": {
+    "guitar": "Fender Stratocaster 'The Black Strat'",
+    "pickup_type": "single_coil",
+    "position": "bridge",
+    "confidence": "inferred"
+  },
+  "tuned_for_guitar": "harley-benton-cst-24",
+  "name": "Solo — rig histórico recreado por IA",
+  "stages": [
+    {
+      "role": "pre",
+      "label": "Pedales Previos",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:gate",
+              "label": "Gate",
+              "params": {
+                "threshold": -44.0,
+                "release_ms": 80.0
+              },
+              "confidence": "estimated",
+              "note": "Puerta de ruido inteligente calibrada para silenciar pastillas."
+            },
+            {
+              "module_uri": "overtrace:comp",
+              "label": "Compresor",
+              "params": {
+                "threshold": -18.0,
+                "ratio": 4.0,
+                "attack_ms": 10.0,
+                "release_ms": 120.0,
+                "makeup_db": 2.0
+              },
+              "confidence": "inferred"
+            },
+            {
+              "module_uri": "overtrace:fuzz",
+              "label": "Electro-Harmonix Big Muff Pi",
+              "params": {
+                "sustain": 0.65,
+                "tone": 0.46,
+                "level": 0.58
+              },
+              "confidence": "inferred",
+              "prefer": [
+                "lv2:http://guitarix.sourceforge.net/plugins/gx_bmp_#_bmp_"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "amp",
+      "label": "Amplificador",
+      "lanes": [
+        {
+          "gain_db": 0.0,
+          "pan": 0.0,
+          "nodes": [
+            {
+              "module_uri": "overtrace:nam",
+              "label": "Hiwatt Custom 100 DR103",
+              "gear": {
+                "name": "Hiwatt Custom 100 DR103",
+                "maker": "Hiwatt",
+                "year": 1973
+              },
+              "params": {
+                "input_level": 0.0,
+                "output_level": 0.0
+              },
+              "asset": {
+                "kind": "nam",
+                "display_name": "Hiwatt Custom 100 DR103",
+                "fallback_class": "british_100w_stack"
+              },
+              "confidence": "inferred"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "post",
+      "label": "Pantalla y Espacio",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:ir",
+              "label": "WEM / Fane 4x12",
+              "params": {
+                "mix": 1.0
+              },
+              "confidence": "inferred"
+            },
+            {
+              "module_uri": "overtrace:delay",
+              "label": "Delay",
+              "params": {
+                "time_ms": 380.0,
+                "feedback": 0.35,
+                "mix": 0.3
+              },
+              "confidence": "inferred",
+              "prefer": [
+                "lv2:http://guitarix.sourceforge.net/plugins/gxtubedelay#tubedelay"
+              ]
+            },
+            {
+              "module_uri": "overtrace:reverb",
+              "label": "Reverberación",
+              "params": {
+                "decay": 2.4,
+                "mix": 0.22
+              },
+              "confidence": "inferred",
+              "prefer": [
+                "lv2:http://guitarix.sourceforge.net/plugins/gx_reverb_stereo#_reverb_stereo"
+              ]
+            },
+            {
+              "module_uri": "overtrace:limiter",
+              "label": "Limitador",
+              "params": {
+                "ceiling": -0.3
+              },
+              "confidence": "estimated"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "confidence": "inferred",
+    "sources": [],
+    "generated_by": "OverTrace AI Tone Reconstructor v2.0",
+    "generated_at": "2026-08-30T14:40:14.271368+00:00"
+  }
+}

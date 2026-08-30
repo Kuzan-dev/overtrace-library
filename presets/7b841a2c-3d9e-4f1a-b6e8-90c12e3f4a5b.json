@@ -1,0 +1,157 @@
+{
+  "id": "7b841a2c-3d9e-4f1a-b6e8-90c12e3f4a5b",
+  "schema_version": 1,
+  "song": {
+    "title": "My Kind of Woman",
+    "artist": "Mac DeMarco",
+    "album": "2",
+    "release_year": 2012
+  },
+  "section": "intro",
+  "performance": {
+    "kind": "studio",
+    "year": 2012,
+    "tuning": "E standard"
+  },
+  "source_instrument": {
+    "guitar": "1960s Teisco / Fender Mustang",
+    "pickup_type": "single_coil",
+    "position": "neck",
+    "confidence": "documented"
+  },
+  "tuned_for_guitar": "harley-benton-cst-24",
+  "name": "Jangle Lo-Fi — Chorus Analógico Cálido + Fender Twin Reverb",
+  "stages": [
+    {
+      "role": "pre",
+      "label": "Dinámica y Tono",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:gate",
+              "label": "Gate",
+              "params": {
+                "threshold": -48.0,
+                "release_ms": 100.0
+              },
+              "confidence": "estimated"
+            },
+            {
+              "module_uri": "overtrace:comp",
+              "label": "Compresor de Cinta Fostex",
+              "params": {
+                "threshold": -18.0,
+                "ratio": 3.0,
+                "attack_ms": 15.0,
+                "release_ms": 120.0,
+                "makeup_db": 1.5
+              },
+              "confidence": "documented"
+            },
+            {
+              "module_uri": "overtrace:eq",
+              "label": "Ecualizador Jangle",
+              "params": {
+                "low_db": -3.0,
+                "mid_db": -1.0,
+                "mid_hz": 600.0,
+                "high_db": 3.5
+              },
+              "confidence": "inferred"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "amp",
+      "label": "Amplificador Fender Twin Reverb",
+      "lanes": [
+        {
+          "gain_db": 0.0,
+          "pan": 0.0,
+          "nodes": [
+            {
+              "module_uri": "overtrace:nam",
+              "label": "Fender Twin Reverb '65",
+              "gear": {
+                "name": "Fender Twin Reverb '65",
+                "maker": "Fender",
+                "year": 1965
+              },
+              "params": {
+                "input_level": 0.0,
+                "output_level": 0.0
+              },
+              "asset": {
+                "kind": "nam",
+                "display_name": "Fender Twin Reverb '65",
+                "fallback_class": "american_clean"
+              },
+              "confidence": "documented"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "post",
+      "label": "Chorus Analógico BBD y Reverb de Muelles",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:ir",
+              "label": "Fender 2x12 Jensen C12N",
+              "params": {
+                "mix": 1.0
+              },
+              "confidence": "inferred"
+            },
+            {
+              "module_uri": "overtrace:mod",
+              "label": "Chorus Analógico BBD (Boss CE-2 Style)",
+              "params": {
+                "rate_hz": 0.85,
+                "depth": 0.35,
+                "mix": 0.40
+              },
+              "confidence": "documented",
+              "note": "Modulación suave y musical que aporta el jangle característico sin desafinar en exceso."
+            },
+            {
+              "module_uri": "overtrace:reverb",
+              "label": "Reverb de Muelles Fender",
+              "params": {
+                "decay": 2.2,
+                "mix": 0.25
+              },
+              "confidence": "documented"
+            },
+            {
+              "module_uri": "overtrace:limiter",
+              "label": "Limitador",
+              "params": {
+                "ceiling": -0.3
+              },
+              "confidence": "estimated"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "confidence": "documented",
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/macdemarco/comments/my_kind_of_woman_tone",
+        "kind": "forum",
+        "quote": "Fender Twin clean platform, Boss CE-2 analog chorus with moderate depth, spring reverb tank."
+      }
+    ],
+    "generated_by": "OverTrace Community Tone Engine",
+    "generated_at": "2026-08-29T22:27:00.000000+00:00"
+  }
+}
