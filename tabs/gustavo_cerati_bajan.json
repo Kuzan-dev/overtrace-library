@@ -1,0 +1,7025 @@
+{
+  "artista": "Gustavo Cerati",
+  "titulo": "Bajan",
+  "album": "Amor Amarillo",
+  "bpm": 90,
+  "duracion_sec": 246.0,
+  "afinacion": "Standard (E A D G B E)",
+  "songsterr_id": 417992,
+  "songsterr_url": "https://www.songsterr.com/a/wsa/gustavo-cerati-bajan-tab-s417992",
+  "tracks": [
+    {
+      "nombre": "Pista 1 \u00b7 Guitarra Saturada (Cerati)",
+      "sub": "Overdriven Guitar \u00b7 Songsterr Oficial",
+      "tipo": "Guitarra",
+      "tuning_labels": [
+        "e",
+        "B",
+        "G",
+        "D",
+        "A",
+        "E"
+      ]
+    },
+    {
+      "nombre": "Pista 2 \u00b7 Bajo El\u00e9ctrico",
+      "sub": "Electric Bass (pick) \u00b7 Songsterr Oficial",
+      "tipo": "Bajo",
+      "tuning_labels": [
+        "-",
+        "-",
+        "G",
+        "D",
+        "A",
+        "E"
+      ]
+    },
+    {
+      "nombre": "Pista 3 \u00b7 Bater\u00eda",
+      "sub": "Drums Kit",
+      "tipo": "Bater\u00eda",
+      "tuning_labels": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
+    }
+  ],
+  "measures_data": [
+    {
+      "label": "Intro (Am)",
+      "beats": [
+        {
+          "pos_pct": 8.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0",
+              "type": "normal"
+            },
+            {
+              "wire": 3,
+              "fret": "2",
+              "type": "normal"
+            },
+            {
+              "wire": 2,
+              "fret": "2",
+              "type": "normal"
+            },
+            {
+              "wire": 1,
+              "fret": "1",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 24.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "0",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 36.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "0",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 48.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "1",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 60.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 74.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "0",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "3b",
+              "type": "bend"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Intro (Riff)",
+      "beats": [
+        {
+          "pos_pct": 8.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0",
+              "type": "normal"
+            },
+            {
+              "wire": 3,
+              "fret": "2",
+              "type": "normal"
+            },
+            {
+              "wire": 2,
+              "fret": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 24.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "0",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 36.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "0",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 48.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "1",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 60.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 74.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "0",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "3b",
+              "type": "bend"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Intro (Riff)",
+      "beats": [
+        {
+          "pos_pct": 8.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0",
+              "type": "normal"
+            },
+            {
+              "wire": 3,
+              "fret": "2",
+              "type": "normal"
+            },
+            {
+              "wire": 2,
+              "fret": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 24.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "0",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 36.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "0",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 48.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "1",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 60.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 74.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "0",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "3b",
+              "type": "bend"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Intro (Riff)",
+      "beats": [
+        {
+          "pos_pct": 8.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0",
+              "type": "normal"
+            },
+            {
+              "wire": 3,
+              "fret": "2",
+              "type": "normal"
+            },
+            {
+              "wire": 2,
+              "fret": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 24.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "0",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 36.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "0",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 48.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "1",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 60.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 74.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "0",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "3b",
+              "type": "bend"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Verso (Am)",
+      "beats": [
+        {
+          "pos_pct": 12.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            },
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "1"
+            }
+          ]
+        },
+        {
+          "pos_pct": 38.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            },
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "1"
+            },
+            {
+              "wire": 0,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            },
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "1"
+            },
+            {
+              "wire": 0,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            },
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "1"
+            },
+            {
+              "wire": 0,
+              "fret": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Verso (F#m)",
+      "beats": [
+        {
+          "pos_pct": 12.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "2"
+            },
+            {
+              "wire": 4,
+              "fret": "4"
+            },
+            {
+              "wire": 3,
+              "fret": "4"
+            },
+            {
+              "wire": 2,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 40.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "2"
+            },
+            {
+              "wire": 0,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "2"
+            },
+            {
+              "wire": 0,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "2"
+            },
+            {
+              "wire": 0,
+              "fret": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Verso (G#m/C#m)",
+      "beats": [
+        {
+          "pos_pct": 12.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            },
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 40.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "5"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Verso (G#m)",
+      "beats": [
+        {
+          "pos_pct": 20.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            },
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 70.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Verso (Am)",
+      "beats": [
+        {
+          "pos_pct": 12.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            },
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "1"
+            }
+          ]
+        },
+        {
+          "pos_pct": 38.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            },
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "1"
+            },
+            {
+              "wire": 0,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            },
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "1"
+            },
+            {
+              "wire": 0,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            },
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "1"
+            },
+            {
+              "wire": 0,
+              "fret": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Verso (F#m)",
+      "beats": [
+        {
+          "pos_pct": 12.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "2"
+            },
+            {
+              "wire": 4,
+              "fret": "4"
+            },
+            {
+              "wire": 3,
+              "fret": "4"
+            },
+            {
+              "wire": 2,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 40.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "2"
+            },
+            {
+              "wire": 0,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "2"
+            },
+            {
+              "wire": 0,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "2"
+            },
+            {
+              "wire": 0,
+              "fret": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Verso (G#m/C#m)",
+      "beats": [
+        {
+          "pos_pct": 12.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            },
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 40.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "5"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Verso (G#m)",
+      "beats": [
+        {
+          "pos_pct": 20.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            },
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 70.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Estribillo (G#m)",
+      "beats": [
+        {
+          "pos_pct": 8.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            },
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 20.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 34.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 46.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 60.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 72.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 84.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 94.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Estribillo (G#m7)",
+      "beats": [
+        {
+          "pos_pct": 8.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            },
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Estribillo (F#m/G)",
+      "beats": [
+        {
+          "pos_pct": 12.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "2"
+            },
+            {
+              "wire": 4,
+              "fret": "4"
+            },
+            {
+              "wire": 3,
+              "fret": "4"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 40.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "2"
+            },
+            {
+              "wire": 4,
+              "fret": "4"
+            },
+            {
+              "wire": 3,
+              "fret": "4"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "3"
+            },
+            {
+              "wire": 4,
+              "fret": "4"
+            },
+            {
+              "wire": 3,
+              "fret": "5"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "3"
+            },
+            {
+              "wire": 4,
+              "fret": "4"
+            },
+            {
+              "wire": 3,
+              "fret": "5"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Estribillo (Lick 7b)",
+      "beats": [
+        {
+          "pos_pct": 10.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            },
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 32.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 48.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "7b",
+              "type": "bend"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 85.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 92.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 97.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6",
+              "type": "vibrato"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Estribillo (G#m)",
+      "beats": [
+        {
+          "pos_pct": 8.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            },
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 20.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 34.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 46.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 60.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 72.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 84.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 94.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Estribillo (G#m7)",
+      "beats": [
+        {
+          "pos_pct": 8.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            },
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Estribillo (F#m/G)",
+      "beats": [
+        {
+          "pos_pct": 12.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "2"
+            },
+            {
+              "wire": 4,
+              "fret": "4"
+            },
+            {
+              "wire": 3,
+              "fret": "4"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 40.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "2"
+            },
+            {
+              "wire": 4,
+              "fret": "4"
+            },
+            {
+              "wire": 3,
+              "fret": "4"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "3"
+            },
+            {
+              "wire": 4,
+              "fret": "4"
+            },
+            {
+              "wire": 3,
+              "fret": "5"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "3"
+            },
+            {
+              "wire": 4,
+              "fret": "4"
+            },
+            {
+              "wire": 3,
+              "fret": "5"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Estribillo (Lick 7b)",
+      "beats": [
+        {
+          "pos_pct": 10.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            },
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 32.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 48.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "7b",
+              "type": "bend"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 85.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 92.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 97.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6",
+              "type": "vibrato"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Puente (Arpegio C)",
+      "beats": [
+        {
+          "pos_pct": 10.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "3"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            },
+            {
+              "wire": 2,
+              "fret": "0"
+            },
+            {
+              "wire": 1,
+              "fret": "1"
+            },
+            {
+              "wire": 0,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 30.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 45.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 60.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 95.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Puente (C Mayor)",
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "3"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            },
+            {
+              "wire": 2,
+              "fret": "0"
+            },
+            {
+              "wire": 1,
+              "fret": "1"
+            },
+            {
+              "wire": 0,
+              "fret": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Puente (F#m)",
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "2"
+            },
+            {
+              "wire": 4,
+              "fret": "4"
+            },
+            {
+              "wire": 3,
+              "fret": "4"
+            },
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "2"
+            },
+            {
+              "wire": 0,
+              "fret": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Puente (G#m)",
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            },
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Puente (C#m)",
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            },
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "5"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Puente (Lick F#/G#)",
+      "beats": [
+        {
+          "pos_pct": 10.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 40.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 55.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 70.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 85.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 95.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Puente (D#m7)",
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "5"
+            },
+            {
+              "wire": 3,
+              "fret": "7"
+            },
+            {
+              "wire": 2,
+              "fret": "7"
+            },
+            {
+              "wire": 1,
+              "fret": "6"
+            },
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Intro (Am)",
+      "beats": [
+        {
+          "pos_pct": 8.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0",
+              "type": "normal"
+            },
+            {
+              "wire": 3,
+              "fret": "2",
+              "type": "normal"
+            },
+            {
+              "wire": 2,
+              "fret": "2",
+              "type": "normal"
+            },
+            {
+              "wire": 1,
+              "fret": "1",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 24.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "0",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 36.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "0",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 48.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "1",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 60.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 74.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "0",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "3b",
+              "type": "bend"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Intro (Riff)",
+      "beats": [
+        {
+          "pos_pct": 8.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0",
+              "type": "normal"
+            },
+            {
+              "wire": 3,
+              "fret": "2",
+              "type": "normal"
+            },
+            {
+              "wire": 2,
+              "fret": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 24.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "0",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 36.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "0",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 48.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "1",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 60.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 74.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "0",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "3b",
+              "type": "bend"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Intro (Riff)",
+      "beats": [
+        {
+          "pos_pct": 8.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0",
+              "type": "normal"
+            },
+            {
+              "wire": 3,
+              "fret": "2",
+              "type": "normal"
+            },
+            {
+              "wire": 2,
+              "fret": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 24.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "0",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 36.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "0",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 48.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "1",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 60.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 74.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "0",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "3b",
+              "type": "bend"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Intro (Riff)",
+      "beats": [
+        {
+          "pos_pct": 8.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0",
+              "type": "normal"
+            },
+            {
+              "wire": 3,
+              "fret": "2",
+              "type": "normal"
+            },
+            {
+              "wire": 2,
+              "fret": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 24.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "0",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 36.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "0",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 48.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "1",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 60.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 74.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "0",
+              "type": "normal"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "3b",
+              "type": "bend"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Verso (Am)",
+      "beats": [
+        {
+          "pos_pct": 12.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            },
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "1"
+            }
+          ]
+        },
+        {
+          "pos_pct": 38.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            },
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "1"
+            },
+            {
+              "wire": 0,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            },
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "1"
+            },
+            {
+              "wire": 0,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            },
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "1"
+            },
+            {
+              "wire": 0,
+              "fret": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Verso (F#m)",
+      "beats": [
+        {
+          "pos_pct": 12.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "2"
+            },
+            {
+              "wire": 4,
+              "fret": "4"
+            },
+            {
+              "wire": 3,
+              "fret": "4"
+            },
+            {
+              "wire": 2,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 40.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "2"
+            },
+            {
+              "wire": 0,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "2"
+            },
+            {
+              "wire": 0,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "2"
+            },
+            {
+              "wire": 0,
+              "fret": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Verso (G#m/C#m)",
+      "beats": [
+        {
+          "pos_pct": 12.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            },
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 40.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "5"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Verso (G#m)",
+      "beats": [
+        {
+          "pos_pct": 20.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            },
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 70.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Verso (Am)",
+      "beats": [
+        {
+          "pos_pct": 12.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            },
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "1"
+            }
+          ]
+        },
+        {
+          "pos_pct": 38.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            },
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "1"
+            },
+            {
+              "wire": 0,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            },
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "1"
+            },
+            {
+              "wire": 0,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            },
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "1"
+            },
+            {
+              "wire": 0,
+              "fret": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Verso (F#m)",
+      "beats": [
+        {
+          "pos_pct": 12.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "2"
+            },
+            {
+              "wire": 4,
+              "fret": "4"
+            },
+            {
+              "wire": 3,
+              "fret": "4"
+            },
+            {
+              "wire": 2,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 40.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "2"
+            },
+            {
+              "wire": 0,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "2"
+            },
+            {
+              "wire": 0,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "2"
+            },
+            {
+              "wire": 0,
+              "fret": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Verso (G#m/C#m)",
+      "beats": [
+        {
+          "pos_pct": 12.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            },
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 40.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "5"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Verso (G#m)",
+      "beats": [
+        {
+          "pos_pct": 20.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            },
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 70.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Estribillo (G#m)",
+      "beats": [
+        {
+          "pos_pct": 8.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            },
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 20.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 34.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 46.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 60.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 72.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 84.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 94.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Estribillo (G#m7)",
+      "beats": [
+        {
+          "pos_pct": 8.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            },
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Estribillo (F#m/G)",
+      "beats": [
+        {
+          "pos_pct": 12.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "2"
+            },
+            {
+              "wire": 4,
+              "fret": "4"
+            },
+            {
+              "wire": 3,
+              "fret": "4"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 40.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "2"
+            },
+            {
+              "wire": 4,
+              "fret": "4"
+            },
+            {
+              "wire": 3,
+              "fret": "4"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "3"
+            },
+            {
+              "wire": 4,
+              "fret": "4"
+            },
+            {
+              "wire": 3,
+              "fret": "5"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "3"
+            },
+            {
+              "wire": 4,
+              "fret": "4"
+            },
+            {
+              "wire": 3,
+              "fret": "5"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Estribillo (Lick 7b)",
+      "beats": [
+        {
+          "pos_pct": 10.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            },
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 32.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 48.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "7b",
+              "type": "bend"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 85.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 92.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 97.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6",
+              "type": "vibrato"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Estribillo (G#m)",
+      "beats": [
+        {
+          "pos_pct": 8.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            },
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 20.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 34.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 46.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 60.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 72.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 84.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 94.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Estribillo (G#m7)",
+      "beats": [
+        {
+          "pos_pct": 8.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            },
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Estribillo (F#m/G)",
+      "beats": [
+        {
+          "pos_pct": 12.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "2"
+            },
+            {
+              "wire": 4,
+              "fret": "4"
+            },
+            {
+              "wire": 3,
+              "fret": "4"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 40.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "2"
+            },
+            {
+              "wire": 4,
+              "fret": "4"
+            },
+            {
+              "wire": 3,
+              "fret": "4"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "3"
+            },
+            {
+              "wire": 4,
+              "fret": "4"
+            },
+            {
+              "wire": 3,
+              "fret": "5"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "3"
+            },
+            {
+              "wire": 4,
+              "fret": "4"
+            },
+            {
+              "wire": 3,
+              "fret": "5"
+            },
+            {
+              "wire": 2,
+              "fret": "4"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Estribillo (Lick 7b)",
+      "beats": [
+        {
+          "pos_pct": 10.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            },
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 32.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 48.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "7b",
+              "type": "bend"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 85.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 92.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 97.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6",
+              "type": "vibrato"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Puente (Arpegio C)",
+      "beats": [
+        {
+          "pos_pct": 10.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "3"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            },
+            {
+              "wire": 2,
+              "fret": "0"
+            },
+            {
+              "wire": 1,
+              "fret": "1"
+            },
+            {
+              "wire": 0,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 30.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 45.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 60.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 95.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Puente (C Mayor)",
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "3"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            },
+            {
+              "wire": 2,
+              "fret": "0"
+            },
+            {
+              "wire": 1,
+              "fret": "1"
+            },
+            {
+              "wire": 0,
+              "fret": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Puente (F#m)",
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "2"
+            },
+            {
+              "wire": 4,
+              "fret": "4"
+            },
+            {
+              "wire": 3,
+              "fret": "4"
+            },
+            {
+              "wire": 2,
+              "fret": "2"
+            },
+            {
+              "wire": 1,
+              "fret": "2"
+            },
+            {
+              "wire": 0,
+              "fret": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Puente (G#m)",
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            },
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "6"
+            },
+            {
+              "wire": 1,
+              "fret": "5"
+            },
+            {
+              "wire": 0,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Puente (C#m)",
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            },
+            {
+              "wire": 3,
+              "fret": "6"
+            },
+            {
+              "wire": 2,
+              "fret": "5"
+            },
+            {
+              "wire": 1,
+              "fret": "4"
+            },
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Puente (Lick F#/G#)",
+      "beats": [
+        {
+          "pos_pct": 10.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 40.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 55.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 70.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 85.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 95.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Puente (D#m7)",
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "5"
+            },
+            {
+              "wire": 3,
+              "fret": "7"
+            },
+            {
+              "wire": 2,
+              "fret": "7"
+            },
+            {
+              "wire": 1,
+              "fret": "6"
+            },
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Electr\u00f3nica (Sintetizadores)",
+      "beats": []
+    },
+    {
+      "label": "Electr\u00f3nica (Sintetizadores)",
+      "beats": []
+    },
+    {
+      "label": "Electr\u00f3nica (Sintetizadores)",
+      "beats": []
+    },
+    {
+      "label": "Electr\u00f3nica (Sintetizadores)",
+      "beats": []
+    },
+    {
+      "label": "Base del Solo (A5 P.M.)",
+      "beats": [
+        {
+          "pos_pct": 10.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 40.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 55.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 70.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 82.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 92.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "3"
+            },
+            {
+              "wire": 4,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Base del Solo (A5 P.M.)",
+      "beats": [
+        {
+          "pos_pct": 10.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 40.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 55.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 70.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 82.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 92.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "3"
+            },
+            {
+              "wire": 4,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Base del Solo (G#5 P.M.)",
+      "beats": [
+        {
+          "pos_pct": 10.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 40.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 55.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 70.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 82.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 92.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "7"
+            },
+            {
+              "wire": 4,
+              "fret": "9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Base del Solo (G#5 P.M.)",
+      "beats": [
+        {
+          "pos_pct": 10.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 40.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 55.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 70.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            },
+            {
+              "wire": 4,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 82.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 92.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "7"
+            },
+            {
+              "wire": 4,
+              "fret": "9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Base del Solo (A5 P.M.)",
+      "beats": [
+        {
+          "pos_pct": 10.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 40.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 55.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 70.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 82.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 92.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "3"
+            },
+            {
+              "wire": 4,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Base del Solo (A5 P.M.)",
+      "beats": [
+        {
+          "pos_pct": 10.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 40.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 55.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 70.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 82.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 92.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "3"
+            },
+            {
+              "wire": 4,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Base del Solo (A5 P.M.)",
+      "beats": [
+        {
+          "pos_pct": 10.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 40.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 55.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 70.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 82.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 4,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 92.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "3"
+            },
+            {
+              "wire": 4,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Final (Em Sostenido)",
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 5,
+              "fret": "0"
+            },
+            {
+              "wire": 4,
+              "fret": "2"
+            },
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "bass_measures_data": [
+    {
+      "beats": [
+        {
+          "pos_pct": 10.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 10.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 10.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 10.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 10.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 10.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 10.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 10.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.0,
+          "is_down": false,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": []
+    },
+    {
+      "beats": []
+    },
+    {
+      "beats": []
+    },
+    {
+      "beats": []
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        },
+        {
+          "pos_pct": 65.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "beats": [
+        {
+          "pos_pct": 15.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "2de13fda-aa70-4ede-b170-09f30d9802d6",
+  "schema_version": 1,
+  "song": {
+    "title": "Let It Be",
+    "artist": "The Beatles",
+    "album": "Let It Be",
+    "release_year": 1970
+  },
+  "section": "solo",
+  "performance": {
+    "kind": "studio",
+    "year": 1970,
+    "tuning": "E standard"
+  },
+  "source_instrument": {
+    "guitar": "Red Special / Rickenbacker / Stratocaster",
+    "pickup_type": "single_coil",
+    "position": "bridge_middle",
+    "confidence": "inferred"
+  },
+  "tuned_for_guitar": "harley-benton-cst-24",
+  "name": "Solo — rig histórico recreado por IA",
+  "stages": [
+    {
+      "role": "pre",
+      "label": "Pedales Previos",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:gate",
+              "label": "Gate",
+              "params": {
+                "threshold": -44.0,
+                "release_ms": 80.0
+              },
+              "confidence": "estimated",
+              "note": "Puerta de ruido inteligente calibrada para silenciar pastillas."
+            },
+            {
+              "module_uri": "overtrace:drive",
+              "label": "Dallas Rangemaster Treble Boost",
+              "params": {
+                "drive": 0.2,
+                "tone": 0.75,
+                "level": 0.7
+              },
+              "confidence": "inferred",
+              "prefer": [
+                "lv2:http://guitarix.sourceforge.net/plugins/gxts9#ts9sim"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "amp",
+      "label": "Amplificador",
+      "lanes": [
+        {
+          "gain_db": 0.0,
+          "pan": 0.0,
+          "nodes": [
+            {
+              "module_uri": "overtrace:nam",
+              "label": "Vox AC30 Top Boost",
+              "gear": {
+                "name": "Vox AC30 Top Boost",
+                "maker": "Vox",
+                "year": 1964
+              },
+              "params": {
+                "input_level": 0.0,
+                "output_level": 0.0
+              },
+              "asset": {
+                "kind": "nam",
+                "display_name": "Vox AC30 Top Boost",
+                "fallback_class": "british_combo_chime"
+              },
+              "confidence": "inferred"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "post",
+      "label": "Pantalla y Espacio",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:ir",
+              "label": "Vox 2x12 Celestion Blue",
+              "params": {
+                "mix": 1.0
+              },
+              "confidence": "inferred"
+            },
+            {
+              "module_uri": "overtrace:reverb",
+              "label": "Reverberación",
+              "params": {
+                "decay": 1.6,
+                "mix": 0.18
+              },
+              "confidence": "inferred",
+              "prefer": [
+                "lv2:http://guitarix.sourceforge.net/plugins/gx_reverb_stereo#_reverb_stereo"
+              ]
+            },
+            {
+              "module_uri": "overtrace:limiter",
+              "label": "Limitador",
+              "params": {
+                "ceiling": -0.3
+              },
+              "confidence": "estimated"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "confidence": "inferred",
+    "sources": [],
+    "generated_by": "OverTrace AI Tone Reconstructor v2.0",
+    "generated_at": "2026-08-31T01:53:56.342185+00:00"
+  }
+}

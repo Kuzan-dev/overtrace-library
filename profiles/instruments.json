@@ -47,32 +47,6 @@
           "position": "neck"
         }
       ]
-    },
-    "gibson-les-paul": {
-      "display_name": "Gibson Les Paul",
-      "escala_pulgadas": 24.75,
-      "electronica": "pasiva",
-      "prestaciones": [],
-      "posiciones": [
-        {
-          "id": "bridge",
-          "label": "Puente",
-          "pickup_type": "humbucker",
-          "position": "bridge"
-        },
-        {
-          "id": "middle",
-          "label": "Ambas",
-          "pickup_type": "humbucker",
-          "position": "middle"
-        },
-        {
-          "id": "neck",
-          "label": "Mástil",
-          "pickup_type": "humbucker",
-          "position": "neck"
-        }
-      ]
     }
   }
 }
