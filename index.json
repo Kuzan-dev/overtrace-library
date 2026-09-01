@@ -211,6 +211,34 @@
       "tuned_for_guitar": "harley-benton-cst-24"
     },
     {
+      "id": "ad8760d9-c75e-42c9-913d-ab5ad5511b89",
+      "fichero": "ad8760d9-c75e-42c9-913d-ab5ad5511b89.json",
+      "titulo": "maggots for brains",
+      "artista": "Olivia Rodrigo",
+      "album": "you seem pretty sad for a girl so in love",
+      "anio": 2026,
+      "seccion": "solo",
+      "nombre": "Solo — rig histórico recreado por IA",
+      "confidence": "inferred",
+      "lane_count": 3,
+      "nam_count": 1,
+      "tuned_for_guitar": "harley-benton-cst-24"
+    },
+    {
+      "id": "c038fce0-db2b-4c3a-b4e1-44eea4fcd81b",
+      "fichero": "c038fce0-db2b-4c3a-b4e1-44eea4fcd81b.json",
+      "titulo": "the cure",
+      "artista": "Olivia Rodrigo",
+      "album": "the cure - Single",
+      "anio": 2026,
+      "seccion": "solo",
+      "nombre": "Solo — rig histórico recreado por IA",
+      "confidence": "inferred",
+      "lane_count": 3,
+      "nam_count": 1,
+      "tuned_for_guitar": "harley-benton-cst-24"
+    },
+    {
       "id": "1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d",
       "fichero": "1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d.json",
       "titulo": "Prueba de sonido",

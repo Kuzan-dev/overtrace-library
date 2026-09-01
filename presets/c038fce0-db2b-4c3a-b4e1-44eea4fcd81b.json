@@ -1,0 +1,156 @@
+{
+  "id": "c038fce0-db2b-4c3a-b4e1-44eea4fcd81b",
+  "schema_version": 1,
+  "song": {
+    "title": "the cure",
+    "artist": "Olivia Rodrigo",
+    "album": "the cure - Single",
+    "release_year": 2026
+  },
+  "section": "solo",
+  "performance": {
+    "kind": "studio",
+    "year": 2026,
+    "tuning": "E standard"
+  },
+  "source_instrument": {
+    "guitar": "Fender Telecaster Custom",
+    "pickup_type": "single_coil",
+    "position": "bridge_middle",
+    "confidence": "inferred"
+  },
+  "tuned_for_guitar": "harley-benton-cst-24",
+  "name": "Solo — rig histórico recreado por IA",
+  "stages": [
+    {
+      "role": "pre",
+      "label": "Pedales Previos",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:gate",
+              "label": "Gate",
+              "params": {
+                "threshold": -44.0,
+                "release_ms": 80.0
+              },
+              "confidence": "estimated",
+              "note": "Puerta de ruido inteligente calibrada para silenciar pastillas."
+            },
+            {
+              "module_uri": "overtrace:comp",
+              "label": "Compresor",
+              "params": {
+                "threshold": -20.0,
+                "ratio": 3.5,
+                "attack_ms": 8.0,
+                "release_ms": 110.0,
+                "makeup_db": 1.5
+              },
+              "confidence": "inferred"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "amp",
+      "label": "Amplificador",
+      "lanes": [
+        {
+          "gain_db": 0.0,
+          "pan": 0.0,
+          "nodes": [
+            {
+              "module_uri": "overtrace:nam",
+              "label": "Roland JC-120 Jazz Chorus",
+              "gear": {
+                "name": "Roland JC-120 Jazz Chorus",
+                "maker": "Roland",
+                "year": 1975
+              },
+              "params": {
+                "input_level": 0.0,
+                "output_level": 0.0
+              },
+              "asset": {
+                "kind": "nam",
+                "display_name": "Roland JC-120 Jazz Chorus",
+                "fallback_class": "clean_solid_state"
+              },
+              "confidence": "inferred"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "post",
+      "label": "Pantalla y Espacio",
+      "lanes": [
+        {
+          "nodes": [
+            {
+              "module_uri": "overtrace:ir",
+              "label": "Roland 2x12",
+              "params": {
+                "mix": 1.0
+              },
+              "confidence": "inferred"
+            },
+            {
+              "module_uri": "overtrace:mod",
+              "label": "Chorus / Modulación",
+              "params": {
+                "rate_hz": 0.7,
+                "depth": 0.55,
+                "mix": 0.4
+              },
+              "confidence": "inferred"
+            },
+            {
+              "module_uri": "overtrace:delay",
+              "label": "Delay",
+              "params": {
+                "time_ms": 280.0,
+                "feedback": 0.25,
+                "mix": 0.2
+              },
+              "confidence": "inferred",
+              "prefer": [
+                "lv2:http://guitarix.sourceforge.net/plugins/gxtubedelay#tubedelay"
+              ]
+            },
+            {
+              "module_uri": "overtrace:reverb",
+              "label": "Reverberación",
+              "params": {
+                "decay": 2.2,
+                "mix": 0.25
+              },
+              "confidence": "inferred",
+              "prefer": [
+                "lv2:http://guitarix.sourceforge.net/plugins/gx_reverb_stereo#_reverb_stereo"
+              ]
+            },
+            {
+              "module_uri": "overtrace:limiter",
+              "label": "Limitador",
+              "params": {
+                "ceiling": -0.3
+              },
+              "confidence": "estimated"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "confidence": "inferred",
+    "sources": [],
+    "generated_by": "OverTrace AI Tone Reconstructor v2.0",
+    "generated_at": "2026-09-01T02:47:07.151700+00:00"
+  }
+}
