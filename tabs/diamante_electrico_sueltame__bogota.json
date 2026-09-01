@@ -1,0 +1,10224 @@
+{
+  "artista": "Diamante El\u00e9ctrico",
+  "titulo": "Su\u00e9ltame, Bogot\u00e1",
+  "album": "\u00c1lbum Oficial",
+  "bpm": 120,
+  "duracion_sec": 184.0,
+  "total_measures": 92,
+  "afinacion": "Standard (E A D G B E)",
+  "songsterr_id": 3040943,
+  "songsterr_url": "https://www.songsterr.com/a/wsa/diamante-electrico-sueltame--bogota-tab-s3040943",
+  "source": "songsterr_direct_cdn_1a1",
+  "tracks": [
+    {
+      "id": 0,
+      "original_id": 0,
+      "nombre": "Electric Guitar (clean) (regenerated)",
+      "sub": "Electric Guitar (clean) \u00b7 Songsterr 1:1 Oficial",
+      "tipo": "Guitarra",
+      "soundfont": "clean",
+      "tuning_labels": [
+        "e",
+        "B",
+        "G",
+        "D",
+        "A",
+        "E"
+      ]
+    },
+    {
+      "id": 1,
+      "original_id": 2,
+      "nombre": "Electric Bass (finger) (regenerated)",
+      "sub": "Electric Bass (finger) \u00b7 Songsterr 1:1 Oficial",
+      "tipo": "Bajo",
+      "soundfont": "bass",
+      "tuning_labels": [
+        "-",
+        "-",
+        "G",
+        "D",
+        "A",
+        "E"
+      ]
+    },
+    {
+      "id": 2,
+      "original_id": 1,
+      "nombre": "Electric Guitar (clean) (regenerated)",
+      "sub": "Electric Guitar (clean) \u00b7 Songsterr 1:1 Oficial",
+      "tipo": "Guitarra",
+      "soundfont": "clean",
+      "tuning_labels": [
+        "e",
+        "B",
+        "G",
+        "D",
+        "A",
+        "E"
+      ]
+    },
+    {
+      "id": 3,
+      "original_id": 3,
+      "nombre": "Drums (regenerated)",
+      "sub": "Drums \u00b7 Songsterr 1:1 Oficial",
+      "tipo": "Bater\u00eda",
+      "soundfont": "drive",
+      "tuning_labels": [
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
+    },
+    {
+      "id": 4,
+      "original_id": 4,
+      "nombre": "Vocals (regenerated)",
+      "sub": "Tenor Sax \u00b7 Songsterr 1:1 Oficial",
+      "tipo": "Guitarra",
+      "soundfont": "drive",
+      "tuning_labels": [
+        "e",
+        "B",
+        "G",
+        "D",
+        "A",
+        "E"
+      ]
+    }
+  ],
+  "measures_data": [
+    {
+      "label": "Comp\u00e1s 1",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 2",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 3",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 4",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 5",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 6",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 7",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 8",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 9",
+      "beats": [
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "13"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 31.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "11"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 10",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 11",
+      "beats": [
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "13"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 31.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "11"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 12",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 13",
+      "beats": [
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "13"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 31.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "11"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 14",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 15",
+      "beats": [
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "13"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 31.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "11"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 16",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 17",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "11"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "13"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 18",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "11"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "13"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 19",
+      "beats": [
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        },
+        {
+          "pos_pct": 31.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 20",
+      "beats": [
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        },
+        {
+          "pos_pct": 31.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 21",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "X",
+              "type": "mute"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "X",
+              "type": "mute"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "11"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "X",
+              "type": "mute"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "13"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 22",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "X",
+              "type": "mute"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "X",
+              "type": "mute"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "11"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "X",
+              "type": "mute"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "13"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "13"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "11"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 23",
+      "beats": [
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        },
+        {
+          "pos_pct": 31.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 24",
+      "beats": [
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        },
+        {
+          "pos_pct": 31.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 25",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 26",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 27",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 28",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 29",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 30",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 31",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 32",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 33",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 34",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 35",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 36",
+      "beats": [
+        {
+          "pos_pct": 90.3,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 96.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 37",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 38",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 53.3,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 66.7,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 70.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 73.3,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 76.7,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 90.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.3,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 96.7,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 39",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 40",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 3.7,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 7.4,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 11.1,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.9,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 29.6,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 33.3,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 51.9,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 55.6,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 59.3,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 63.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 77.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 81.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 85.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 88.9,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 92.6,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 96.3,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 41",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 77.4,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 90.3,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 96.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 42",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 43",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "1"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 44",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 6.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 31.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 81.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 45",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 46",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 47",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 48",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 3.6,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 7.1,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 10.7,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 28.6,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 32.1,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 35.7,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 53.6,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 57.1,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 60.7,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 78.6,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 82.1,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 85.7,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 49",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 50",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 51",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 52",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 53",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 54",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 55",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 56",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 57",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 58",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 59",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 60",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 61",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 62",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 63",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 64",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 65",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 66",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 67",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 68",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 69",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 70",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 71",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 72",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 73",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 6.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 31.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 74",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 6.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 31.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 75",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 6.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 31.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 76",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 6.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 31.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 77",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        },
+        {
+          "pos_pct": 6.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "X",
+              "type": "mute"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "13",
+              "type": "bend"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "13"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "11"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 78",
+      "beats": [
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "13",
+              "type": "bend"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "13"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "11"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 79",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "12"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 80",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 81",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 82",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 83",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 84",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 85",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 86",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 87",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 88",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 89",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "11"
+            }
+          ]
+        },
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "X",
+              "type": "mute"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "11"
+            }
+          ]
+        },
+        {
+          "pos_pct": 31.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "X",
+              "type": "mute"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "13"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "X",
+              "type": "mute"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "X",
+              "type": "mute"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 81.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "X",
+              "type": "mute"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "X",
+              "type": "mute"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 90",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "11"
+            }
+          ]
+        },
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "X",
+              "type": "mute"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "11"
+            }
+          ]
+        },
+        {
+          "pos_pct": 31.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "X",
+              "type": "mute"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "13"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "X",
+              "type": "mute"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "X",
+              "type": "mute"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 81.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "X",
+              "type": "mute"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "X",
+              "type": "mute"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 91",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "X",
+              "type": "mute"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 31.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "X",
+              "type": "mute"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "13"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "X",
+              "type": "mute"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "X",
+              "type": "mute"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 81.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "X",
+              "type": "mute"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "X",
+              "type": "mute"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 92",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "11"
+            }
+          ]
+        },
+        {
+          "pos_pct": 81.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "11"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "11"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "11"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "bass_measures_data": [
+    {
+      "label": "Comp\u00e1s 1",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 6.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 2",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 3",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 6.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 4",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 5",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 6.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 6",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 7",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 6.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 8",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 9",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 6.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 10",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 11",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 6.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 12",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 81.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 13",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 6.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 14",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 15",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 6.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 16",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8",
+              "type": "slide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 17",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 6.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 18",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "10",
+              "type": "slide"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "8",
+              "type": "slide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 19",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 6.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 20",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 81.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 21",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 6.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 22",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "10",
+              "type": "slide"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 23",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 6.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 24",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5",
+              "type": "slide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 25",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 26",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 27",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 28",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 29",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 30",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 31",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 32",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 33",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 6.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 34",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "10",
+              "type": "slide"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 35",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 6.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 36",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 81.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 37",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 6.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 38",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "10",
+              "type": "slide"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 39",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 6.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 40",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 41",
+      "beats": [
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 42",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "10"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 43",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 6.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 44",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 81.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 45",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 6.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 46",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "10",
+              "type": "slide"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 47",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 6.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 43.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 56.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 48",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 12.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5",
+              "type": "slide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 49",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 50",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 51",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 52",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 53",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 54",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 55",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 56",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 57",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 58",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 59",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 60",
+      "beats": []
+    },
+    {
+      "label": "Comp\u00e1s 61",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 62",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 63",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 64",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 65",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 66",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 67",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 68",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 69",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 70",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 71",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 72",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 73",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "X",
+              "type": "mute"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 74",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 75",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 76",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 77",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 78",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 79",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 80",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5",
+              "type": "slide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 81",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 82",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 83",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 84",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 85",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 86",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 87",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 88",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 89",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 90",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "6"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 91",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 68.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 2,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 0,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comp\u00e1s 92",
+      "beats": [
+        {
+          "pos_pct": 0.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 18.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 25.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "3"
+            }
+          ]
+        },
+        {
+          "pos_pct": 37.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 50.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 62.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 75.0,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 3,
+              "fret": "5"
+            }
+          ]
+        },
+        {
+          "pos_pct": 81.2,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 87.5,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "7"
+            }
+          ]
+        },
+        {
+          "pos_pct": 93.8,
+          "is_down": true,
+          "notes": [
+            {
+              "wire": 1,
+              "fret": "7"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
