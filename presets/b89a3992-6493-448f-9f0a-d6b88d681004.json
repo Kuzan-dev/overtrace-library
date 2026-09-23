@@ -93,11 +93,6 @@
                 "input_level": 0.0,
                 "output_level": 0.0
               },
-              "asset": {
-                "kind": "nam",
-                "display_name": "Roland JC-120 Jazz Chorus",
-                "fallback_class": "clean_solid_state"
-              },
               "confidence": "documented",
               "sources": [
                 {
@@ -105,7 +100,8 @@
                   "kind": "forum",
                   "quote": "Roland JC-120 and Fender Twin provide the ultra-clean, high-headroom platform for Vacations."
                 }
-              ]
+              ],
+              "tone_class": "clean_solid_state"
             }
           ]
         }
@@ -148,7 +144,7 @@
               "params": {
                 "time_ms": 260.0,
                 "feedback": 0.22,
-                "mix": 0.20
+                "mix": 0.2
               },
               "confidence": "documented",
               "note": "Repeticiones cortas y cálidas que añaden profundidad y espacio a las melodías."

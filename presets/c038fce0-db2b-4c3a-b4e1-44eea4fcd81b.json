@@ -74,12 +74,8 @@
                 "input_level": 0.0,
                 "output_level": 0.0
               },
-              "asset": {
-                "kind": "nam",
-                "display_name": "Roland JC-120 Jazz Chorus",
-                "fallback_class": "clean_solid_state"
-              },
-              "confidence": "inferred"
+              "confidence": "inferred",
+              "tone_class": "clean_solid_state"
             }
           ]
         }

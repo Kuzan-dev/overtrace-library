@@ -1,26 +1,26 @@
 {
-  "id": "9a1073cb-1afe-4274-8397-d1996d38b543",
+  "id": "15d81363-8603-43e0-a16e-a8b56c0c16cf",
   "schema_version": 1,
   "song": {
-    "title": "Come As You Are",
-    "artist": "Nirvana",
-    "album": "Nevermind",
-    "release_year": 1991
+    "title": "Anastasia (feat. Myles Kennedy & the Conspirators)",
+    "artist": "Slash",
+    "album": "Apocalyptic Love (Deluxe) [feat. Myles Kennedy & the Conspirators]",
+    "release_year": 2012
   },
-  "section": "riff",
+  "section": "solo",
   "performance": {
     "kind": "studio",
-    "year": 1991,
+    "year": 2012,
     "tuning": "E standard"
   },
   "source_instrument": {
-    "guitar": "Fender Mustang / Jaguar con Humbucker",
+    "guitar": "Gibson Les Paul / SG",
     "pickup_type": "humbucker",
     "position": "bridge",
     "confidence": "inferred"
   },
   "tuned_for_guitar": "harley-benton-cst-24",
-  "name": "Riff — rig histórico recreado por IA",
+  "name": "Solo — rig histórico recreado por IA",
   "stages": [
     {
       "role": "pre",
@@ -40,10 +40,10 @@
             },
             {
               "module_uri": "overtrace:drive",
-              "label": "Boss DS-1 Distortion",
+              "label": "Boss SD-1 Super Overdrive",
               "params": {
-                "drive": 0.75,
-                "tone": 0.5,
+                "drive": 0.3,
+                "tone": 0.55,
                 "level": 0.65
               },
               "confidence": "inferred",
@@ -65,11 +65,11 @@
           "nodes": [
             {
               "module_uri": "overtrace:nam",
-              "label": "Fender Twin Reverb / Mesa Preamp",
+              "label": "Marshall JCM800 2203",
               "gear": {
-                "name": "Fender Twin Reverb / Mesa Preamp",
-                "maker": "Fender",
-                "year": 1968
+                "name": "Marshall JCM800 2203",
+                "maker": "Marshall",
+                "year": 1981
               },
               "params": {
                 "input_level": 0.0,
@@ -90,19 +90,9 @@
           "nodes": [
             {
               "module_uri": "overtrace:ir",
-              "label": "Marshall 1960A 4x12",
+              "label": "Marshall 1960A 4x12 Greenback",
               "params": {
                 "mix": 1.0
-              },
-              "confidence": "inferred"
-            },
-            {
-              "module_uri": "overtrace:mod",
-              "label": "Chorus / Modulación",
-              "params": {
-                "rate_hz": 0.6,
-                "depth": 0.65,
-                "mix": 0.4
               },
               "confidence": "inferred"
             },
@@ -110,7 +100,7 @@
               "module_uri": "overtrace:reverb",
               "label": "Reverberación",
               "params": {
-                "decay": 1.6,
+                "decay": 1.5,
                 "mix": 0.15
               },
               "confidence": "inferred",
@@ -135,6 +125,6 @@
     "confidence": "inferred",
     "sources": [],
     "generated_by": "OverTrace AI Tone Reconstructor v2.0",
-    "generated_at": "2026-08-30T14:39:00.789506+00:00"
+    "generated_at": "2026-09-01T03:33:47.120860+00:00"
   }
 }

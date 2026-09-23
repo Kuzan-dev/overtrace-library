@@ -335,6 +335,20 @@
       "tuned_for_guitar": "harley-benton-cst-24"
     },
     {
+      "id": "15d81363-8603-43e0-a16e-a8b56c0c16cf",
+      "fichero": "15d81363-8603-43e0-a16e-a8b56c0c16cf.json",
+      "titulo": "Anastasia (feat. Myles Kennedy & the Conspirators)",
+      "artista": "Slash",
+      "album": "Apocalyptic Love (Deluxe) [feat. Myles Kennedy & the Conspirators]",
+      "anio": 2012,
+      "seccion": "solo",
+      "nombre": "Solo — rig histórico recreado por IA",
+      "confidence": "inferred",
+      "lane_count": 3,
+      "nam_count": 1,
+      "tuned_for_guitar": "harley-benton-cst-24"
+    },
+    {
       "id": "2de13fda-aa70-4ede-b170-09f30d9802d6",
       "fichero": "2de13fda-aa70-4ede-b170-09f30d9802d6.json",
       "titulo": "Let It Be",

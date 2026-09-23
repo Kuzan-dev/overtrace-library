@@ -74,12 +74,8 @@
                 "input_level": 0.0,
                 "output_level": 0.0
               },
-              "asset": {
-                "kind": "nam",
-                "display_name": "Marshall JCM800 2203",
-                "fallback_class": "british_crunch"
-              },
-              "confidence": "inferred"
+              "confidence": "inferred",
+              "tone_class": "british_crunch"
             }
           ]
         }

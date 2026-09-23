@@ -56,14 +56,17 @@
     },
     "section": {
       "type": "string",
-      "description": "QUÉ parte de la canción. Un solo eje.",
+      "description": "QUÉ parte de la canción. Un solo eje. El valor es canónico: el nombre que el autor de la tablatura le puso a la sección («[A] Verse 1 - 16 bars», «Guitar Solo 2») vive en el mapa de arreglo, no aquí, porque es texto libre en varios idiomas y no sirve como clave. AMPLIADO respecto a la lista original (full_song, intro, verse, chorus, solo, bridge, outro) con 'riff', 'pre_chorus' e 'interlude': son las tres que aparecen en los marcadores reales de las tablaturas y que antes no tenían dónde caer. La interfaz escribía 'riff' de todas formas —hay seis presets así en el catálogo— y el schema los rechazaba, pero nadie se enteraba porque el validador ni se ejecutaba.",
       "enum": [
         "full_song",
         "intro",
+        "riff",
         "verse",
+        "pre_chorus",
         "chorus",
         "solo",
         "bridge",
+        "interlude",
         "outro"
       ]
     },
@@ -502,6 +505,13 @@
                 "description": "Clase sonora equivalente si el asset exacto no está disponible."
               }
             }
+          },
+          "tone_class": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Familia sonora del equipo cuando NO hay un fichero concreto que lo aproxime. El motor la usa para elegir su emulador nativo (§8.3). Existe porque 'asset.fallback_class' obligaba a declarar un 'asset' —que exige 'source_url'— para poder decir algo tan simple como «esto es un stack británico de 100 W». El generador acababa escribiendo assets sin fuente: una afirmación sobre un fichero que no existe. Sin captura, va aquí; con captura, el 'fallback_class' del asset manda."
           },
           "confidence": {
             "$ref": "#/$defs/confidence",

@@ -84,12 +84,8 @@
                 "input_level": 0.0,
                 "output_level": 0.0
               },
-              "asset": {
-                "kind": "nam",
-                "display_name": "Fender Twin Reverb '65",
-                "fallback_class": "american_clean"
-              },
-              "confidence": "documented"
+              "confidence": "documented",
+              "tone_class": "american_clean"
             }
           ]
         }
@@ -115,7 +111,7 @@
               "params": {
                 "rate_hz": 0.85,
                 "depth": 0.35,
-                "mix": 0.40
+                "mix": 0.4
               },
               "confidence": "documented",
               "note": "Modulación suave y musical que aporta el jangle característico sin desafinar en exceso."

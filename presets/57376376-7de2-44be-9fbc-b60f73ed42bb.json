@@ -78,12 +78,8 @@
                 "input_level": 2.0,
                 "output_level": 0.0
               },
-              "asset": {
-                "kind": "nam",
-                "display_name": "Vox AC30 Top Boost",
-                "fallback_class": "british_combo_chime"
-              },
-              "confidence": "documented"
+              "confidence": "documented",
+              "tone_class": "british_combo_chime"
             }
           ]
         }
